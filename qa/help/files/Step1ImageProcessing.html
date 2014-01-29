@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Step 1: Image Processing</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Hint */
+{
+ color: #808080;
+}
+span.rvts7 /* Font Hint Title */
+{
+ font-size: 15pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #404040;
+}
+span.rvts8 /* Font Hint Bold */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.rvts9 /* Font Hint Italic */
+{
+ font-style: italic;
+ color: #808080;
+}
+span.rvts10
+{
+ font-size: 8pt;
+}
+a.rvts11, span.rvts11
+{
+ font-size: 8pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts11:hover { color: #0000ff; }
+a.rvts12, span.rvts12
+{
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts12:hover { color: #0000ff; }
+span.rvts13 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ color: #ffffff;
+}
+span.rvts14 /* Font Style */
+{
+ font-family: 'MS Sans Serif', 'Geneva', sans-serif;
+ color: #808080;
+}
+span.rvts15 /* Font Style */
+{
+ font-family: 'Verdana', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts16, span.rvts16 /* Font Style */
+{
+ font-family: 'Verdana', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+ margin: 7px 0px 7px 0px;
+}
+.rvps3
+{
+ text-indent: 10px;
+}
+.rvps4 /* Paragraph Style */
+{
+ background: #9fbed0;
+ margin: 0px 0px 20px 0px;
+}
+.rvps5 /* Paragraph Style */
+{
+ text-align: center;
+ background: #e4e4e4;
+ margin: 20px 0px 0px 0px;
+}
+.rvps6 /* Paragraph Style */
+{
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ background: #ffffff;
+ padding: 3px 0px 0px 0px;
+ margin: 27px 0px 0px 0px;
+}
+--></style>
+<script type="text/javascript">if(top.frames.length == 0) { top.location.href="../Image2XML.htm?Step1ImageProcessing.html"; }</script>
+<meta name="generator" content="HelpNDoc Free"></head>
+<body>
+
+<p class=rvps4><span class=rvts13>Step 1: Image Processing</span></p>
+<p class=rvps2><a class=rvts11 href="QuickStart.html">Previous</a><span class=rvts10> | </span><a class=rvts11 href="Image2XMLUsersManual.html">Contents</a><span class=rvts10> | </span><a class=rvts11 href="CreatingaTemplate.html">Next</a></p>
+<p class=rvps3>We start with an image that we wish to obtain data from.&nbsp; In the Program Installation directory,&nbsp; there is a file called called &lt;INSTALLDIR&gt;/Samples/I2XFORMSAMPLE.TIF.&nbsp; We can start with other images,&nbsp; and we even can acquire images from any TWAIN compliant scanner if desired by clicking Scan-&gt;Acquire Image.&nbsp; </p>
+<p class=rvps3><br></p>
+<p class=rvps3>Before you begin,&nbsp; please install the I2X Sample pack from the sample directory at Noctusoft.&nbsp; <a class=rvts12 href="http:\\www.noctusoft.com\redirect\samples.asp" target="_blank">You can download it by clicking here</a>.&nbsp; Once you have downloaded and installed the sample pack:
+<br><br></p>
+<p class=rvps3>1. Select an image to convert to XML.</p>
+<p class=rvps3><img border=0 alt="" hspace=1 vspace=1 src="img_2.jpg"></p>
+<p class=rvps3><br></p>
+<p class=rvps3>2. Select the Sample image that was installed with the sample pack.</p>
+<p class=rvps3><img border=0 alt="" hspace=1 vspace=1 src="img_3.jpg"></p>
+<p class=rvps3><span class=rvts11><br></span></p>
+<p class=rvps3>3. You should now see the following image,&nbsp; go the the Image Tab
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_4.jpg">
+<br><br></p>
+<p class=rvps3>4. Select Grey Threshold,&nbsp; make it a value 100 and select single image instruction button
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_5.jpg">
+<br><br></p>
+<p class=rvps3>5. Note that the lines have disappeared somewhat,&nbsp; we can do better.&nbsp; Click the refresh button to get the image before it was manipulated.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_6.jpg">
+<br><br></p>
+<p class=rvps3>6. Select Grey Threshold,&nbsp; make it a value 60 and select the single image instruction button again
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_7.jpg">
+<br><br></p>
+<p class=rvps3>7. Note that the lines have disappeared,&nbsp; but the text remains.&nbsp; We like this.&nbsp; Click the green plus sign to add the Image instructions to the template
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_8.jpg">
+<br><br></p>
+<p class=rvps3>9. The Form is crooked,&nbsp; this makes will make it difficult to extract data from the form.&nbsp; We need to deskew the form.&nbsp; Select deskew and press the single image instruction button as shown below.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_9.jpg"></p>
+<p class=rvps3><br></p>
+<p class=rvps3>8. The the form has now been straightened,&nbsp; this is a prime candidate for optical character recognition processing.&nbsp; Click the green plus sign to add the instruction to the template.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_10.jpg"></p>
+<p class=rvps3><br></p>
+<p class=rvps3>9. We now have an image ready to processed.&nbsp; Click either Control+S or File-&gt;Save to save this template.<img border=0 alt="" hspace=1 vspace=1 src="img_11.jpg"></p>
+<p class=rvps3>
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_12.jpg"></p>
+<p class=rvps3><br></p>
+<p class=rvps3>After we saved this template,&nbsp; we are now ready to draw regions around the data we want to identify.&nbsp; <a class=rvts11 href="CreatingaTemplate.html">Click here to continue to the next walk through</a>
+<br><br></p>
+<p class=rvps2><a class=rvts11 href="QuickStart.html">Previous</a><span class=rvts10> | </span><a class=rvts11 href="Image2XMLUsersManual.html">Contents</a><span class=rvts10> | </span><a class=rvts11 href="CreatingaTemplate.html">Next</a></p>
+<hr noshade size=1 style="color : #000000">
+<p class=rvps5><span class=rvts14>Copyright © 2009, NoctuSoft, Inc.</span></p>
+<p class=rvps6><span class=rvts15>This help file has been generated by the freeware version of </span><a class=rvts16 href="http://www.ibe-software.com/products/software/helpndoc/" target="_blank">HelpNDoc</a></p>
+
+</body></html>

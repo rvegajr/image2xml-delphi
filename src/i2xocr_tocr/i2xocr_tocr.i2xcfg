@@ -1,0 +1,3 @@
+<ocr_plugin>
+	<debug level="2" path="%temp%\i2x\"/>
+</ocr_plugin>

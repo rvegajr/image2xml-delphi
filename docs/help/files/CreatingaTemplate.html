@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Step 2: Creating a Template</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Hint */
+{
+ color: #808080;
+}
+span.rvts7 /* Font Hint Title */
+{
+ font-size: 15pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #404040;
+}
+span.rvts8 /* Font Hint Bold */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.rvts9 /* Font Hint Italic */
+{
+ font-style: italic;
+ color: #808080;
+}
+span.rvts10
+{
+ font-size: 8pt;
+}
+span.rvts11
+{
+ font-size: 12pt;
+ font-weight: bold;
+}
+a.rvts12, span.rvts12
+{
+ font-size: 8pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts12:hover { color: #0000ff; }
+span.rvts13
+{
+ font-weight: bold;
+}
+span.rvts14 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ color: #ffffff;
+}
+span.rvts15 /* Font Style */
+{
+ font-family: 'MS Sans Serif', 'Geneva', sans-serif;
+ color: #808080;
+}
+span.rvts16 /* Font Style */
+{
+ font-family: 'Verdana', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts17, span.rvts17 /* Font Style */
+{
+ font-family: 'Verdana', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+ margin: 7px 0px 7px 0px;
+}
+.rvps3
+{
+ text-indent: 10px;
+}
+.rvps4 /* Paragraph Style */
+{
+ background: #9fbed0;
+ margin: 0px 0px 20px 0px;
+}
+.rvps5 /* Paragraph Style */
+{
+ text-align: center;
+ background: #e4e4e4;
+ margin: 20px 0px 0px 0px;
+}
+.rvps6 /* Paragraph Style */
+{
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ background: #ffffff;
+ padding: 3px 0px 0px 0px;
+ margin: 27px 0px 0px 0px;
+}
+--></style>
+<script type="text/javascript">if(top.frames.length == 0) { top.location.href="../Image2XML.htm?CreatingaTemplate.html"; }</script>
+<meta name="generator" content="HelpNDoc Free"></head>
+<body>
+
+<p class=rvps4><span class=rvts14>Step 2: Creating a Template</span></p>
+<p class=rvps2><a class=rvts12 href="Step1ImageProcessing.html">Previous</a><span class=rvts10> | </span><a class=rvts12 href="Image2XMLUsersManual.html">Contents</a><span class=rvts10> | </span><a class=rvts12 href="SettingupaJob.html">Next</a></p>
+<p class=rvps3>Once we have processed the image,&nbsp; we are now ready to define regions on the template that will allow us to specify what we want each field to be.&nbsp; This process is known as creating a "Template Model".&nbsp; If you know that the batch of documents you intend on processing came from the same consistent printer,&nbsp; then you can use the same module for the </p>
+<p class=rvps3><br></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside;">
+<li value=1 class=rvps3 style="text-indent: 0px">On the image,&nbsp; right click and add a region.&nbsp; Move this region to the Form ID Field as shown below.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_13.jpg">
+<br>
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_14.jpg">
+<br><br></li>
+<li value=2 class=rvps3 style="text-indent: 0px">Right click on this newly created region and name it something meaningful.&nbsp; This region is known as a 'single region' as it will represent in chunk of data.&nbsp; Lets name it <span class=rvts13>form_id</span>.&nbsp; 
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_15.jpg">
+<br>
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_16.jpg">
+<br><br></li>
+<li value=3 class=rvps3 style="text-indent: 0px">Right click on this region and select "OCR Region".&nbsp; This will give us what the I2X will thinks the data in the region is.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_17.jpg">
+<br>
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_18.jpg">
+<br><br></li>
+<li value=4 class=rvps3 style="text-indent: 0px">Create another single region and name it <span class=rvts13>to_pay</span>.&nbsp; Lets make this a number field.&nbsp; Right click on this to see what I2X thinks it is.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_19.jpg">
+<br><br></li>
+<li value=5 class=rvps3 style="text-indent: 0px">Now create a region on a chunk of data that we want broken out by different rows and fields.&nbsp; This is especially useful for transactional items such as bank statements or score card lists.&nbsp; Draw one region,&nbsp; and call it <span class=rvts13>part_descr</span>. (since creating a region was detailed above,&nbsp; the final figure representing this step is in Step 8 below)
+<br><br></li>
+<li value=6 class=rvps3 style="text-indent: 0px">Right click on that newly create region and make a copy of it to the right.&nbsp; Resize it so it covers the field.Name this newly created region <span class=rvts13>covered_part</span>.
+<br><br></li>
+<li value=7 class=rvps3 style="text-indent: 0px">Right click again and make another copy to the right,&nbsp; and call it <span class=rvts13>qty</span>.&nbsp; Make this a numeric field.
+<br><br></li>
+<li value=8 class=rvps3 style="text-indent: 0px">Draw a region around the region you created in 5.&nbsp; Call it <span class=rvts13>transactions</span>.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_20.jpg">
+<br><br></li>
+<li value=9 class=rvps3 style="text-indent: 0px">Next,&nbsp; we are going to make the regions created in 5 and 6 as children of a parent field. Drag the region called <span class=rvts13>part_descr </span>over <span class=rvts13>transactions.&nbsp; </span>When asked to make the dragged field a child of the drag target,&nbsp; click yes.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_21.jpg">
+<br>
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_22.jpg">
+<br>&nbsp; </li>
+<li value=10 class=rvps3 style="text-indent: 0px">Drag <span class=rvts13>qty</span> and <span class=rvts13>covered_part</span> over <span class=rvts13>transactions </span>just like in step 9.
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_23.jpg">
+<br><br></li>
+<li value=11 class=rvps3 style="text-indent: 0px">Right click on an <span class=rvts13>part_descr</span> (it should select the parent region called <span class=rvts13>transactions</span>).&nbsp;&nbsp; Select "OCR Region".
+<br><img border=0 alt="" hspace=1 vspace=1 src="img_24.jpg">
+<br><br></li>
+<li value=12 class=rvps3 style="text-indent: 0px">Press Cntl+S to Save,&nbsp; name it 'I2XSAMPLE'.
+<br><br></li>
+<li value=13 class=rvps3 style="text-indent: 0px">We are now ready to set up a job with this template.</li>
+</ol>
+<p class=rvps2><a class=rvts12 href="Step1ImageProcessing.html">Previous</a><span class=rvts10> | </span><a class=rvts12 href="Image2XMLUsersManual.html">Contents</a><span class=rvts10> | </span><a class=rvts12 href="SettingupaJob.html">Next</a></p>
+<hr noshade size=1 style="color : #000000">
+<p><span class=rvts12></span>
+<br><span class=rvts11><br></span></p>
+<p class=rvps5><span class=rvts15>Copyright © 2009, NoctuSoft, Inc.</span></p>
+<p class=rvps6><span class=rvts16>This help file has been generated by the freeware version of </span><a class=rvts17 href="http://www.ibe-software.com/products/software/helpndoc/" target="_blank">HelpNDoc</a></p>
+
+</body></html>

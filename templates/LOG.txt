@@ -1,0 +1,1 @@
+ImgViewDblClick(): Sender.ClassName=TImgView32  Sel=id=name  datatype=s  FNodType=single X=1030 Y=499 W=450 H=100 avgC=0

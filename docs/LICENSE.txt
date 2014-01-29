@@ -1,0 +1,130 @@
+NOCTUSOFT SOFTWARE ALPHA TEST AGREEMENT
+Notice to User: This Software Alpha Test Agreement is a CONTRACT between you (either an individual or a single entity) 
+and NoctuSoft (NoctuSoft), which covers your use of the NoctuSoft Alpha software product that accompanies this Software 
+Alpha Test Agreement and related software components, which may include associated media, printed materials, and "online" 
+or electronic documentation. All such software and materials are referred to herein as the "Alpha Software." If you do not 
+agree to the terms of this Software Alpha Test Agreement, then do not install or use the Alpha Software. By explicitly 
+accepting this Software Alpha Test Agreement, however, or by installing, copying, downloading, accessing, or otherwise 
+using the Alpha Software, you are acknowledging and agreeing to be bound by the following terms.
+
+1. DEFINITIONS. 
+	(a) "Alpha Software" shall mean the Alpha version of NoctuSoft's software, in object form only, excluding any Open Source Software 
+		provided with such software, and the media and Documentation provided by NoctuSoft to Licensee and for which Licensee is granted 
+		a use license pursuant to this Agreement.
+	(b) "Documentation" shall mean the printed or online written reference material furnished to Licensee in conjunction with the 
+		Alpha Software, including, without limitation, instructions, Alpha testing guidelines, and end user guides.
+	(c) "Intellectual Property Rights" shall mean all intellectual property rights, including, without limitation, patent, copyright, 
+		trademark, and trade secret.
+	(d) "Open Source Software" means various open source software components provided with the Alpha Software that are licensed to you 
+		under the terms of the applicable license agreements included with such open source software components or other materials for the Alpha Software. 
+	(e) "Updates" shall mean a modification, error correction, bug fix, new release, or other update to or for the Alpha Software.
+
+2. LICENSE GRANT, USE AND OWNERSHIP
+	(a) Limited License. Subject to the terms and conditions of this Agreement, NoctuSoft grants to Licensee a non-exclusive, 
+		non-transferable license (without the right to sublicense) (i) to use the Alpha Software in accordance with the Documentation 
+		solely for purposes of internal testing and evaluation, (ii) to use the Documentation provided with the Alpha Software in support of 
+		Licensee's authorized use of the Alpha Software, and (iii) to copy Alpha Software for archival or backup purposes, provided that all 
+			titles and trademarks, copyright, and restricted rights notices are reproduced on such copies. 
+	(b) Evaluation Feedback. The purpose of this limited license is the testing and evaluation of the Alpha Software and Documentation. 
+		In furtherance of this purpose, Licensee shall provide feedback to NoctuSoft concerning the functionality and performance of the Alpha 
+		Software from time to time as reasonably requested by NoctuSoft, including, without limitation, identifying potential errors and 
+		improvements. Such feedback will be in a manner convenient to Licensee and will be subject to reasonable availability of Licensee's personnel. 
+		Notwithstanding the foregoing, prior to Licensee disclosing to NoctuSoft any information in connection with this Agreement which 
+		Licensee considers proprietary or confidential, Licensee shall obtain NoctuSoft's prior written approval to disclose such information to 
+		NoctuSoft, and without such prior written approval from NoctuSoft, Licensee shall not disclose any such information to NoctuSoft. Feedback 
+		and other information which is provided by Licensee to NoctuSoft in connection with the Alpha Software or this Agreement may be used by 
+		NoctuSoft to improve or enhance its products and, accordingly, NoctuSoft shall have a non-exclusive, perpetual, irrevocable, royalty-free, 
+		worldwide right and license to use, reproduce, disclose, sublicense, distribute, modify, and otherwise exploit such feedback and information 
+		without restriction. 
+	(c) Restrictions. Licensee shall not copy or use the Alpha Software (including the Documentation) except as expressly permitted in this Agreement. 
+		Licensee will not, and will not permit any third party to, sublicense, rent, copy, modify, create derivative works of, translate, reverse engineer, 
+		decompile, disassemble, or otherwise reduce to human perceivable form any portion of the Alpha Software or accompanying Documentation. In no event 
+		shall Licensee use the Alpha Software for Licensee's product development or any other commercial purpose. The Alpha Software and all performance 
+		data and test results, including without limitation, benchmark test results (collectively "Performance Data"), relating to the Alpha Software are 
+		the Confidential Information of NoctuSoft, and will be treated in accordance with the terms of Section 4 of this Agreement. Accordingly, Licensee 
+		shall not publish or disclose to any third party any Performance Data relating to the Alpha Software. 
+	(d) Ownership. NoctuSoft shall own and retain all right, title and interest in and to the Intellectual Property Rights in the Alpha Software and any 
+		derivative works thereof, subject only to the limited license expressly set forth in Section 2(a) hereof. Licensee does not acquire any other 
+		rights, express or implied, in the Alpha Software. ALL RIGHTS NOT EXPRESSLY GRANTED HEREUNDER ARE RESERVED TO NOCTUSOFT. 
+	(e) No Support Services. NoctuSoft is under no obligation to support the Alpha Software in any way or to provide any Updates to Licensee. In the 
+		event NoctuSoft, in its sole discretion, supplies any Update to Licensee, such Update shall be deemed Alpha Software hereunder and shall be 
+		subject to the terms and conditions of this Agreement.
+	(f) Third-Party Software. The Alpha Software enables a computer to run multiple instances of third-party guest operating systems and application 
+		programs. Licensee acknowledges that Licensee is responsible for obtaining any licenses necessary to operate any such third-party software, 
+		including guest operating systems.
+	(g) Open Source Software. The terms and conditions of this Agreement shall not apply to any Open Source Software accompanying the Alpha Software. 
+		Any such Open Source Software is provided under the terms of the open source license agreement or copyright notice accompanying such Open Source 
+		Software or in the open source licenses file accompanying the Alpha Software. 
+
+3. TERM AND TERMINATION. Licensee's rights with respect to the Alpha Software will terminate upon the earlier of (a) the initial commercial release 
+	by NoctuSoft of a generally available version of the Alpha Software or (b) automatic expiration of the Alpha Software based on the system date. Either 
+	party may terminate this Agreement at any time for any reason or no reason by providing the other party advance written notice thereof. Upon any 
+	expiration or termination of this Agreement, the rights and licenses granted to Licensee under this Agreement shall immediately terminate, and 
+	Licensee shall immediately cease using, and will return to NoctuSoft (or, at NoctuSoft's request, destroy), the Alpha Software, Documentation, 
+	and all other tangible items in Licensee's possession or control that are proprietary to or contain Confidential Information. The rights and 
+	obligations of the parties set forth in Sections 2(b) 2(c), 2(d), 2(e), 2(f), 3, 4, 5, 6 and 7 shall survive termination or expiration of this 
+	Agreement for any reason.
+
+4. CONFIDENTIALITY. "Confidential Information" shall mean all trade secrets, know-how, inventions, techniques, processes, algorithms, software 
+	programs, hardware, schematics, and software source documents relating to the Alpha Software, and other information provided by NoctuSoft, 
+	whether disclosed orally, in writing, or by examination or inspection, other than information which Licensee can demonstrate (i) was 
+	already known to Licensee, other than under an obligation of confidentiality, at the time of disclosure; (ii) was generally available 
+	in the public domain at the time of disclosure to Licensee; (iii) became generally available in the public domain after disclosure 
+	other than through any act or omission of Licensee; (iv) was subsequently lawfully disclosed to Licensee by a third party without any 
+	obligation of confidentiality; or (v) was independently developed by Licensee without use of or reference to any information or materials 
+	disclosed by NoctuSoft or its suppliers. Confidential Information shall include without limitation the Alpha Software, Documentation, 
+	Performance Data, and any Updates. Licensee shall not use any Confidential Information for any purpose other than as expressly authorized 
+	under this Agreement. In no event shall Licensee use the Alpha Software or any Confidential Information to develop, manufacture, market, 
+	sell, or distribute any product or service. Licensee shall limit dissemination of Confidential Information to its employees who have a need 
+	to know such Confidential Information for purposes expressly authorized under this Agreement. In no event shall Licensee disclose any 
+	Confidential Information to any third party. Without limiting the foregoing, Licensee shall use at least the same degree of care that it 
+	uses to prevent the disclosure of i		ts own confidential information of like importance, but in no event less than reasonable care, to 
+	prevent the disclosure of Confidential Information.
+
+5. LIMITATION OF LIABILITY. IT IS UNDERSTOOD THAT THE ALPHA SOFTWARE IS PROVIDED WITHOUT CHARGE FOR LIMITED EVALUATION PURPOSES. ACCORDINGLY, THE TOTAL 
+	LIABILITY OF NOCTUSOFT AND ITS SUPPLIERS ARISING OUT OF OR RELATED TO THIS AGREEMENT SHALL NOT EXCEED $100. IN NO EVENT SHALL NOCTUSOFT OR ITS 
+	SUPPLIERS HAVE LIABILITY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSE¬QUEN¬TIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF 
+	BUSINESS PROFITS, BUSINESS INTERRUPTION, OR LOSS OF BUSINESS INFORMATION), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF NOCTUSOFT AND 
+	ITS SUPPLIERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS SHALL APPLY NOT¬WITH¬STANDING ANY FAILURE OF ESSENTIAL 
+	PURPOSE OF ANY LIMITED REMEDY. 
+
+6. WARRANTY DISCLAIMER. IT IS UNDERSTOOD THAT THE ALPHA SOFTWARE, DOCUMENTATION, AND ANY UPDATES MAY CONTAIN ERRORS AND ARE PROVIDED FOR LIMITED 
+	EVALUATION ONLY. THE ALPHA SOFTWARE, THE DOCUMENTATION, AND ANY UPDATES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, 
+	STATUTORY, OR OTHERWISE. NOCTUSOFT AND ITS SUPPLIERS SPECIFICALLY DISCLAIM ALL IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS 
+	FOR A PARTICULAR PURPOSE. Licensee acknowledges that NoctuSoft has not publicly announced the availability of the Alpha Software, that NoctuSoft has 
+	not promised or guaranteed to Licensee that such Alpha Software will be announced or made available to anyone in the future, that NoctuSoft has no 
+	express or implied obligation to Licensee to announce or introduce the Alpha Software, and that NoctuSoft may not introduce a product similar or 
+	compatible with the Alpha Software. Accordingly, Licensee acknowledges that any research or development that it performs regarding the Alpha Software 
+	or any product associated with the Alpha Software is done entirely at Recipient's own risk. Specifically, the Alpha Software may contain features, 
+	functionality or modules that will not be included in the production version of the Alpha Software, if released, or that will be marketed separately 
+	for additional fees.
+
+7. OTHER PROVISIONS
+	(a) Governing Law. This Agreement, and all disputes arising out of or related thereto, shall be governed by and construed under the laws of the State 
+		of Texas without reference to conflict of laws principles. All such disputes shall be subject to the exclusive jurisdiction of the state and federal 
+		courts located in Tarrant County, Texas, and the parties agree and submit to the personal and exclusive jurisdiction and venue of these courts.
+	(b) Assignment. Licensee shall not assign this Agreement or any rights or obligations hereunder, directly or indirectly, by operation of law, merger, 
+		acquisition of stock or assets, or otherwise, without the prior written consent of NoctuSoft. Subject to the foregoing, this Agreement shall inure to 
+		the benefit of and be binding upon the parties and their respective successors and permitted assigns.
+	(c) Export Regulations. Licensee understands that NoctuSoft is subject to regulation by the U.S. government and its agencies, which prohibit 
+		export or diversion of certain technical products and information to certain countries and individuals. Licensee warrants that it will comply 
+		in all respects with all export and re-export restrictions applicable to the technology and documentation provided hereunder.
+	(d) Modification. This is the entire agreement between the parties relating to the subject matter hereof and all other terms are rejected. No 
+		waiver or modification of this Agreement shall be valid unless in writing signed by each party. The waiver of a breach of any term hereof 
+		shall in no way be construed as a waiver of any term or other breach hereof. If any provision of this Agreement is held by a court of 
+		competent jurisdiction to be contrary to law the remaining provisions of this Agreement shall remain in full force and effect.
+
+8. CONTACT INFORMATION. 
+	If you have any questions about this Software Alpha Test Agreement, or if you want to contact NoctuSoft for any reason, 
+	please direct all correspondence to: 
+	
+	NoctuSoft
+	5009 Shelly Ray Rd
+	Keller, TX. 76248, 
+	United States of America 
+	
+	EMAIL: info@noctusoft.com
+	Phone: 817-313-6873
+	
+	Image2XML© is a trademark of NoctuSoft©
+

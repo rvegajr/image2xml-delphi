@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/01/27 10:41:58.176.pas,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScan.pas</Transaction>
+    <Transaction>2009/01/27 10:41:58.231.dfm,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit1.dfm=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScan.dfm</Transaction>
+    <Transaction>2009/01/27 10:42:31.155.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Project1.dproj=C:\Dark\pascal\Image2XML\src\i2xscanui\I2XScanTray.dproj</Transaction>
+    <Transaction>2009/01/27 13:04:40.881.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit2.pas=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTrayMain.pas</Transaction>
+    <Transaction>2009/01/27 13:04:40.881.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit2.dfm=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTrayMain.dfm</Transaction>
+    <Transaction>2009/01/27 13:04:45.047.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScan.pas=</Transaction>
+    <Transaction>2009/01/27 13:04:45.047.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScan.dfm=</Transaction>
+    <Transaction>2009/01/27 13:11:25.216.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTrayMain.pas=</Transaction>
+    <Transaction>2009/01/27 13:11:25.216.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTrayMain.dfm=</Transaction>
+    <Transaction>2009/01/27 13:12:06.529.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTray.pas</Transaction>
+    <Transaction>2009/01/27 13:12:06.529.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit1.dfm=C:\Dark\pascal\Image2XML\src\i2xscanui\UII2XScanTray.dfm</Transaction>
+    <Transaction>2009/01/27 14:52:00.219.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xscanui\uUII2XScanTray.pas</Transaction>
+    <Transaction>2009/01/27 15:51:04.084.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xcommon\uAppCache.pas</Transaction>
+    <Transaction>2009/01/28 09:43:35.765.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit2.pas=C:\Dark\pascal\Image2XML\src\i2xscanui\UITWAINDeviceSelect.pas</Transaction>
+    <Transaction>2009/01/28 09:43:35.765.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\Unit2.dfm=C:\Dark\pascal\Image2XML\src\i2xscanui\UITWAINDeviceSelect.dfm</Transaction>
+    <Transaction>2009/01/28 09:53:02.869.pas,C:\Dark\pascal\Image2XML\src\i2xscanui\UITWAINDeviceSelect.pas=</Transaction>
+    <Transaction>2009/01/28 09:53:02.869.dfm,C:\Dark\pascal\Image2XML\src\i2xscanui\UITWAINDeviceSelect.dfm=</Transaction>
+    <Transaction>2009/08/24 15:33:34.135.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XUndo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

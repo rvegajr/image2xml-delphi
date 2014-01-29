@@ -1,0 +1,23 @@
+<i2x_job name="SCANJOB">
+	<root_path>C:\Users\Administrator\Documents\Image2XML</root_path>
+	<image_path>C:\Dark\pascal\Image2XML\templates\Images</image_path>
+	<template_file_name>C:\Dark\pascal\Image2XML\templates\TESTAAAA.i2x</template_file_name>
+	<output_path>.\out</output_path>
+	<restartable>Y</restartable>
+	<job_list createdate="2/1/2009 12:24 AM">
+		<exec datetime="2/1/2009 12:25 AM">
+			<items>
+				<item src="\pascal\Image2XML\templates\TESTAAAA1.BMP" lastmoddt="1/1/2009 12:25 AM" output="PLAYERNAME1" procdt="2/1/2009 12:25 AM"/>
+				<item src="\pascal\Image2XML\templates\TESTAAAA2.BMP" lastmoddt="1/1/2009 12:25 AM" output="PLAYERNAME2" procdt="2/1/2009 12:25 AM"/>
+				<item src="\pascal\Image2XML\templates\TESTAAAA3.BMP" lastmoddt="1/1/2009 12:25 AM" output="PLAYERNAME3" procdt="2/1/2009 12:26 AM"/>
+				<item src="\pascal\Image2XML\templates\TESTAAAA4.BMP" lastmoddt="1/1/2009 12:25 AM" output="PLAYERNAME4" procdt="2/1/2009 12:26 AM"/>
+				<item src="\pascal\Image2XML\templates\TESTAAAA5.BMP" lastmoddt="1/1/2009 12:25 AM" output="PLAYERNAME5" procdt="2/1/2009 12:27 AM"/>
+			</items>
+		</exec>
+		<exec datetime="2/1/2009 12:45 AM">
+			<items>
+				<item src="\pascal\Image2XML\templates\TESTAAAA1.BMP" output="PLAYERNAME1" datetime="2/1/2009 12:25 AM"/>
+			</items>
+		</exec>
+	</job_list>
+</i2x_job>

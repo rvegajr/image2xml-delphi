@@ -1,0 +1,55 @@
+Process form images and convert them into XML text.
+
+
+
+
+Image2XML is a versatile and affordable forms processing solution.  It can take scanned typed form images (such as bank statements,  typed medical records, etc) and convert them into text XML.  
+
+Image2XML has the following key features:
+
+1. Scanning of images from any TWAIN compliant scanner
+
+2. Image processing such as de-skewing, removal of noise (despeck), stripping of colors, sharpening, resizing, etc
+
+3. Creation of templates that describe form data and image processing actions that can be placed into a job for later batch processing
+
+4. OCR processing that will select the best results and combine them into one final 'XML' product.
+Image result data (what we call “Product XML”) will be combined into an intuitive xml file with the names defined in the template
+
+5. “Product XML” maintains the hierarchical nature of the form processed. Data belongs to the fields they are associated with in the template and transactions on forms that are grouped together are maintained as rows of parent fields
+
+6. The ability to utilize the results of different OCR engines and automatically utilize the best results of each
+Plug-in architecture
+
+  6a. You will not be locked into the OCR engine that is bundled with this application.
+  6b. You will not be locked into the image processing capabilities bundled with this application
+  
+  
+ 
+Image2XML can now be purchased for $99.95.  But it is not released yet?  Why would
+you want to take a chance on pre-released software?
+
+Image2XML is intended to replace software that costs thousands of dollars.  
+When the product is officially released,  we will certainly charge more than $100 for it.
+Buying it now will lock in a low cost and allow save you the 
+upgrade cost for the next 3 releases.  Buying Image2XML now will allow you obtain 3 free future major 
+versions of this software.  It will also give you priority in suggesting features for future releases.
+
+What is in store for future releases?  
+
+Version 1 will be released on 1/1/2010
+
+Version 2 (Spring of 2010):
+Improved job manager
+More image processing plugins 
+More OCR plugins (including handwriting interprating plugins)
+Plugin Architecture release guide
+
+Version 3 (End of 2010):
+Multi-language (Spanish, Italian, French, etc)
+Multi-core processing
+Even More image processing plugins 
+Even More OCR/ICR plugins
+API release
+
+Click here to purchase Image2XML!

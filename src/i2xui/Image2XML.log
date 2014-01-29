@@ -1,0 +1,44 @@
+Image2XML Started on 9/23/2009 4:44:05 PM
+      AppPath =C:\Dark\pascal\Image2XML\src\i2xui\
+DLLSearchPath =C:\Dark\pascal\Image2XML\src\
+      JobFile =
+This execution of Image2XML will bring up the User Interface
+ReLoadActiveImage(): ActiveImageInfo - FileName="C:\Dark\pascal\Image2XML\tests\1041Insurance.BMP" Width=850 Height=1108 DPI= 96
+Calling TI2XPluginManager.SearchAndLoadImagePlugins()
+  Searching "C:\Dark\pascal\Image2XML\src\"
+  Searching "C:\Dark\pascal\Image2XML\src\i2xcommon\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximage\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg*.dll"... File Count=1
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_g32\i2ximg*.dll"... File Count=1
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_mcm\i2ximg*.dll"... File Count=1
+  Searching "C:\Dark\pascal\Image2XML\src\i2xocr_gocr\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2xocr_tocr\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2xscanui\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2xui\i2ximg*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\\i2ximg*.dll"... File Count=0
+Completed: TI2XPluginManager.SearchAndLoadImagePlugins() returning 3
+Calling TI2XPluginManager.SearchAndLoadOCRPlugins()
+  Searching "C:\Dark\pascal\Image2XML\src\"
+  Searching "C:\Dark\pascal\Image2XML\src\i2xcommon\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximage\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_g32\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2ximg_mcm\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2xocr_gocr\i2xocr*.dll"... File Count=1
+  Searching "C:\Dark\pascal\Image2XML\src\i2xocr_tocr\i2xocr*.dll"... File Count=1
+  Searching "C:\Dark\pascal\Image2XML\src\i2xscanui\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\i2xui\i2xocr*.dll"... File Count=0
+  Searching "C:\Dark\pascal\Image2XML\src\\i2xocr*.dll"... File Count=0
+Completed: TI2XPluginManager.SearchAndLoadOCRPlugins() returning 2
+FormResize - Top:0, Left:0
+FormResize (NEW) - Top:0, Left:0
+FormResize - Top:0, Left:0
+FormResize (NEW) - Top:0, Left:0
+Sender.ClassName=TEdit
+Sender.ClassName=TEdit  Name=txtActiveImage
+FormResize - Top:0, Left:0
+FormResize (NEW) - Top:0, Left:0
+Sender.ClassName=TMemo
+Sender.ClassName=TMemo  Name=txtDPI
+FormResize - Top:0, Left:0
+FormResize (NEW) - Top:0, Left:0

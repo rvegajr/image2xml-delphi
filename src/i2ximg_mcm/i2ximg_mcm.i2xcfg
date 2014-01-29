@@ -1,0 +1,116 @@
+<image_instructions>
+	<debug level="1" path="%temp%\i2x\"/>
+	<instruction name="deskew" neumonic="DESKEW" name_in_list="Deskew">
+		<description>This instruction will straighten those images that have been scanned slightly.</description>
+	</instruction>
+	<instruction name="despeckle" neumonic="DESPECKLE" name_in_list="Despeckle">
+		<description>This instruction will remove noise and dots from the image.</description>
+		<parameters>
+			<parameter id="iterations" label="Iterations">
+				<slider min="0" max="255" default="20"/>
+			</parameter>
+			<parameter id="level" label="Despeckle Level">
+				<select>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+				</select>
+			</parameter>
+		</parameters>
+	</instruction>
+	<instruction name="color_reduction" neumonic="COLOR_REDUCE" name_in_list="Color Reduction">
+		<description>Setting this value will allow the image to be stripped under a certain value</description>
+		<parameters>
+			<parameter id="color_bit_count" label="Color Bits">
+				<select>
+					<option>24 Bit Color</option>
+					<option>16 Bit color</option>
+					<option>8 Bit Color</option>
+					<option>4 Bit Color</option>
+					<option>2 Bit Color (B&amp;W)</option>
+				</select>
+			</parameter>
+		</parameters>
+	</instruction>
+	<instruction name="filter_average" neumonic="AVERAGE" name_in_list="Pixel Average">
+		<description>Average the intensities in the image, where all pixels are weighted equally Pixel Effect=3x3, ScaleFactor=9.</description>
+	</instruction>
+	<instruction name="filter_average_heavy" neumonic="AVERAGEHEAVY" name_in_list="Pixel Average (Heavy)">
+		<description>Average the intensities in the image, where all pixels are weighted equally. Pixel Effect=5x5, ScaleFactor = 25.</description>
+	</instruction>
+	<instruction name="filter_blur" neumonic="BLUR" name_in_list="Blur">
+		<description>Blur. Pixel Effect=3x3.</description>
+	</instruction>
+	<instruction name="filter_blur_heavy" neumonic="BLUR_HEAVY" name_in_list="Blur (Heavy)">
+		<description>Blur. Pixel Effect=5x5.</description>
+	</instruction>
+	<instruction name="filter_gblur" neumonic="GBLUR" name_in_list="Gauss Blur">
+		<description>Gauss blur. Pixel Effect=5x5. ScaleFactor = 12.</description>
+	</instruction>
+	<instruction name="filter_smooth" neumonic="SMOOTH" name_in_list="Smooth">
+		<description>Average the intensities in the image. Pixel Effect=3x3. ScaleFactor = 12.</description>
+	</instruction>
+	<instruction name="filter_smooth_circle" neumonic="SMOOTH_CIRCLE" name_in_list="Smooth (Circle)">
+		<description>Average the intensities in the image, where all pixels are weighted equally, except the corner pixels. Pixel Effect=5x5, ScaleFactor = 21.</description>
+	</instruction>
+	<instruction name="filter_smooth_cone" neumonic="SMOOTH_CONE" name_in_list="Smooth (Cone)">
+		<description>Average the intensities in the image, where the values within the filter have different weights. Pixel Effect=5x5, ScaleFactor = 25.</description>
+	</instruction>
+	<instruction name="filter_smooth_pyramid" neumonic="SMOOTH_PYRAMIDAL" name_in_list="Smooth (Pyramid)">
+		<description>Average the intensities in the image, where the values within the filter have different weights. Pixel Effect=5x5, ScaleFactor = 81.</description>
+	</instruction>
+	<instruction name="filter_sharpen" neumonic="SHARPEN" name_in_list="Sharpen">
+		<description>Sharpens the image by enhancing edges. (Intensity Difference=6)</description>
+	</instruction>
+	<instruction name="filter_sharpen_heavy" neumonic="SHARPENHEAVY" name_in_list="Sharpen (Heavy)">
+		<description>Sharpens the image by enhancing edges. (Intensity Difference=10)</description>
+	</instruction>
+	<instruction name="filter_unsharpen" neumonic="UNSHARPMASK" name_in_list="Unsharp Mask">
+		<description>Enhance edges in photographs by adding the edges obtained from the Laplacian filter to the original image.</description>
+	</instruction>
+	<instruction name="filter_edge" neumonic="EDGE" name_in_list="Edges">
+		<description>Locate edges. Pixel Effect 3x3.</description>
+	</instruction>
+	<instruction name="filter_edge_prewitt" neumonic="EDGEPREWITT" name_in_list="Edge Prewitt">
+		<description>Edge Prewitt, locate edges by calculating the root mean square from the Prewitt North-South and East-West kernels. Pixel Effect=3x3.</description>
+	</instruction>
+	<instruction name="filter_highpass" neumonic="HIGHPASS" name_in_list="High Pass">
+		<description>High pass. Pixel Effect=3x3.  (Intensity Difference=9)</description>
+	</instruction>
+	<!-- MARRHILDRETH -->
+	<instruction name="filter_greyedge" neumonic="GREYEDGE" name_in_list="Grey Super Edge">
+		<description>A specialised edge filter, returning an 8 bit grey scale image with a black background and white edges. It uses the MCM implementation of the Marr-Hildreth filter. Convert image to 8 bit grey scale before using this filter.</description>
+	</instruction>
+	<instruction name="filter_max" neumonic="DILATE" name_in_list="Dilation">
+		<description>Replaces the centre pixel the with greatest intensity value found in the neighbourhood. The effect is expansion of bright areas. This filter is also known as a dilation filter.</description>
+	</instruction>
+	<instruction name="filter_maxmin" neumonic="SHARP_DRV" name_in_list="Sharpen (Derived)">
+		<description>The Sharpen (Derived) filter has an 3x3 or 5x5 pixel effect, where the outer 8/16 pixels are searched to find the minimum and maximum value. The center pixel is changed derived from these values.</description>
+	</instruction>
+	<instruction name="filter_median" neumonic="NOISE_REMOVE" name_in_list="Noise Removal">
+		<description>The Noise Removal filter can be used to remove "salt &amp; peper" noise</description>
+	</instruction>
+	<instruction name="filter_degrain" neumonic="DEGRAIN" name_in_list="Degrain">
+		<description>Degrain is a specialised filter that removes small dark or bright grains.</description>
+	</instruction>
+	<instruction name="filter_degrain_bright" neumonic="DEGRAIN_BRIGHT" name_in_list="Degrain (Bright)">
+		<description>A specialised filter that removes small bright grains.</description>
+	</instruction>
+	<instruction name="filter_degrain_dark" neumonic="DEGRAIN_DARK" name_in_list="Degrain (Dark)">
+		<description>A specialised filter that removes small dark grains.</description>
+	</instruction>
+	<instruction name="filter_erode" neumonic="ERODE" name_in_list="Erode">
+		<description>Replaces the centre pixel with the smallest intensity value found in the neighborhood. The effect is thinning of bright areas and expansion of dark regions.</description>
+	</instruction>
+	<instruction name="resize" neumonic="RESIZE" name_in_list="Resize Image">
+		<description>Performing this will force the image to the values specified</description>
+		<parameters>
+			<parameter id="X" label="Rescale X">
+				<text type="number"/>
+			</parameter>
+			<parameter id="Y" label="Rescale Y">
+				<text type="number"/>
+			</parameter>
+		</parameters>
+	</instruction>
+</image_instructions>

@@ -1,0 +1,10 @@
+<image_instructions>
+	<instruction name="rgb_strip_colors" neumonic="RBG_COLOR_STRIP" name_in_list="RGB Strip Colors">
+		<description>Setting this value will allow the image to be stripped of colors that are under a specific RGB value.  Any color above this intensity will be stripped,  any below will be converted to black.</description>
+		<parameters>
+			<parameter id="threshold" label="RGB Threshold">
+				<slider min="0" max="16777215" default="0"/>
+			</parameter>
+		</parameters>
+	</instruction>
+</image_instructions>

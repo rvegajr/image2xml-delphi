@@ -1,0 +1,13 @@
+;Dependency File for Setup Wizards
+
+[Version]
+Version=4.5.0.2
+
+;Dependencies for KEYLIB32.DLL
+[KEYLIB32.DLL]
+Dest=$(WinSysPath)
+Version=4.5.0.2
+Uses1=MACHNM1.EXE
+Uses2=MACHNM32.SYS
+Uses3=MACHNM64.SYS
+Uses4=

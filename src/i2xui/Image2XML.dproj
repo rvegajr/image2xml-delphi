@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{07176cf6-4f7e-42c2-b2e2-1ede4226906d}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>Image2XML.exe</DCC_DependencyCheckOutputName>
+    <MainSource>Image2XML.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG;madExcept</DCC_Define>
+    <DCC_UnitSearchPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Program Files\CodeGear\RAD Studio\Custom\mcmImaging;C:\Program Files\CodeGear\RAD Studio\Custom\graphics32-1-8-3;C:\Program Files\CodeGear\RAD Studio\Custom\mcmTWAIN;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\common;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\windows;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\GraphicEx</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Program Files\CodeGear\RAD Studio\Custom\mcmImaging;C:\Program Files\CodeGear\RAD Studio\Custom\graphics32-1-8-3;C:\Program Files\CodeGear\RAD Studio\Custom\mcmTWAIN;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\common;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\windows;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\GraphicEx</DCC_ResourcePath>
+    <DCC_ObjPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Program Files\CodeGear\RAD Studio\Custom\mcmImaging;C:\Program Files\CodeGear\RAD Studio\Custom\graphics32-1-8-3;C:\Program Files\CodeGear\RAD Studio\Custom\mcmTWAIN;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\common;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\windows;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\GraphicEx</DCC_ObjPath>
+    <DCC_IncludePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Program Files\CodeGear\RAD Studio\Custom\mcmImaging;C:\Program Files\CodeGear\RAD Studio\Custom\graphics32-1-8-3;C:\Program Files\CodeGear\RAD Studio\Custom\mcmTWAIN;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\common;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source;C:\Program Files\CodeGear\RAD Studio\JCL-1.101.1.2725\source\windows;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\OmniXML;C:\Program Files\CodeGear\RAD Studio\Custom\GraphicEx</DCC_IncludePath>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters><Parameters Name="RunParams">-x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">0</VersionInfo><VersionInfo Name="MinorVer">9</VersionInfo><VersionInfo Name="Release">9</VersionInfo><VersionInfo Name="Build">4</VersionInfo><VersionInfo Name="Debug">True</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">NoctuSoft</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Image2XML</VersionInfoKeys><VersionInfoKeys Name="FileVersion">0.9.9.4</VersionInfoKeys><VersionInfoKeys Name="InternalName">I2X</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">NoctuSoft</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">Image2XML</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">0.9.X</VersionInfoKeys><VersionInfoKeys Name="Comments">www.image2xml.com</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">Image2XML.dpr</Source></Source><Excluded_Packages>
+      <Excluded_Packages Name="C:\Dark\pascal\THotSpotImage\hsimgd2006\hotspotimagepkgd2006.bpl">File C:\Dark\pascal\THotSpotImage\hsimgd2006\hotspotimagepkgd2006.bpl not found</Excluded_Packages>
+    </Excluded_Packages></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="Image2XML.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\i2xcommon\FastMM4.pas" />
+    <DCCReference Include="..\i2xcommon\FastMM4Messages.pas" />
+    <DCCReference Include="..\i2xcommon\hh.pas" />
+    <DCCReference Include="..\i2xcommon\hh_funcs.pas" />
+    <DCCReference Include="..\i2xcommon\IP_API.PAS" />
+    <DCCReference Include="..\i2xcommon\MapStream.pas" />
+    <DCCReference Include="..\i2xcommon\ONLINE.pas">
+      <Form>frmOnline</Form>
+    </DCCReference>
+    <DCCReference Include="..\i2xcommon\PPP4.pas" />
+    <DCCReference Include="..\i2xcommon\PPP_FUNC.PAS" />
+    <DCCReference Include="..\i2xcommon\RegExpr.pas" />
+    <DCCReference Include="..\i2xcommon\SKCA32.PAS" />
+    <DCCReference Include="..\i2xcommon\uAppCache.pas" />
+    <DCCReference Include="..\i2xcommon\uCmdLine.pas" />
+    <DCCReference Include="..\i2xcommon\uDebug.pas" />
+    <DCCReference Include="..\i2xcommon\uDWImage.pas" />
+    <DCCReference Include="..\i2xcommon\uFileDir.pas" />
+    <DCCReference Include="..\i2xcommon\uFileIO.pas" />
+    <DCCReference Include="..\i2xcommon\uHashTable.pas" />
+    <DCCReference Include="..\i2xcommon\uHashTableXML.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XConstants.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XDLL.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XDWImageUtils.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XImageProcJobThread.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XJob.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XMemMap.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XOCR.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XOCRProcThread.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XOptions.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XPlugin.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XPluginManager.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XProduct.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XProductThread.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XScan.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XTemplate.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XThreadBase.pas" />
+    <DCCReference Include="..\i2xcommon\uI2XUndo.pas" />
+    <DCCReference Include="..\i2xcommon\UIDialog.pas">
+      <Form>frmDialog</Form>
+    </DCCReference>
+    <DCCReference Include="..\i2xcommon\uImage2XML.pas" />
+    <DCCReference Include="..\i2xcommon\Unlock.pas">
+      <Form>UnlockScreen</Form>
+    </DCCReference>
+    <DCCReference Include="..\i2xcommon\uOmniXML.pas" />
+    <DCCReference Include="..\i2xcommon\uReg.pas" />
+    <DCCReference Include="..\i2xcommon\uStrUtil.pas" />
+    <DCCReference Include="..\i2xcommon\_TEST.pas" />
+    <DCCReference Include="Help.pas" />
+    <DCCReference Include="uI2XMainController.pas" />
+    <DCCReference Include="UII2XAbout.pas">
+      <Form>AboutBox</Form>
+    </DCCReference>
+    <DCCReference Include="UII2XBase.pas">
+      <Form>I2XBaseUI</Form>
+    </DCCReference>
+    <DCCReference Include="UII2XDialog.pas">
+      <Form>frmI2XDialogUI</Form>
+    </DCCReference>
+    <DCCReference Include="UII2XDimmer.pas">
+      <Form>I2XDimmerUI</Form>
+    </DCCReference>
+    <DCCReference Include="UII2XMain.pas">
+      <Form>I2XBaseUI1</Form>
+    </DCCReference>
+    <DCCReference Include="UII2XOptions.pas">
+      <Form>OptionsBaseUI1</Form>
+    </DCCReference>
+    <DCCReference Include="UIOCRProductViewDialog.pas">
+      <Form>OCRProductViewDialog</Form>
+    </DCCReference>
+    <DCCReference Include="UIOptionsBase.pas">
+      <Form>OptionsBaseUI</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>

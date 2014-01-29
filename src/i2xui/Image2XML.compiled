@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/ppc386" Date="1325254654"/>
+  <Params Value=" -Mdelphi -Scghi -O1 -g -gl  -k-framework -kCarbon -k-framework -kOpenGL -k-dylib_file -k/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib:/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib -vewnhi -Fi/Users/rvegajr/Dark/pascal/Delphi/Image2XML/src/i2xcommon -Fu/Users/rvegajr/Dark/pascal/Delphi/Image2XML/src/i2xcommon -Fu/Developer/lazarus/lcl/units/i386-darwin/carbon -Fu/Developer/lazarus/lcl/units/i386-darwin -Fu/Developer/lazarus/components/lazutils/lib/i386-darwin -Fu/Developer/lazarus/packager/units/i386-darwin -Fu/Users/rvegajr/Dark/pascal/Delphi/Image2XML/src/i2xui/ -l -dLCL -dLCLcarbon Image2XML.dpr"/>
+  <Complete Value="False"/>
+</CONFIG>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/09/24 16:45:10.845.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Project1.dproj=C:\Dark\pascal\Image2XML\src\i2xocr_gocr\i2xocr_gocr.dproj</Transaction>
+    <Transaction>2008/09/24 16:45:57.336.pas,C:\Dark\pascal\Image2XML\src\i2xocr_gocr\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xocr_gocr\TESSDLL.pas</Transaction>
+    <Transaction>2008/09/24 16:47:28.932.pas,C:\Dark\pascal\Image2XML\src\i2xocr_gocr\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xocr_gocr\TesseractOCR.pas</Transaction>
+    <Transaction>2008/09/24 16:49:42.032.pas,C:\Dark\pascal\Image2XML\src\i2xocr_gocr\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XOCR.pas</Transaction>
+    <Transaction>2008/09/24 16:57:59.591.pas,C:\Dark\pascal\Image2XML\src\i2xocr_gocr\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xocr_gocr\uI2XOCR_GOCR.pas</Transaction>
+    <Transaction>2009/08/26 16:45:49.863.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XUndo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

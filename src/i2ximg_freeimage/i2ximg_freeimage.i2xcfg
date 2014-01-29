@@ -1,0 +1,36 @@
+<image_instructions>
+	<debug level='1' path='%temp%\i2x\' />
+	<instruction name="greythreshold" neumonic="GREY_THRESH" name_in_list="Grey Threshold">
+		<description>Setting this value will allow the image to be stripped under a certain value</description>
+		<parameters>
+			<parameter id="threshold" label="Grey Threshold">
+				<slider min="0" max="255" default="50"/>
+			</parameter>
+		</parameters>
+	</instruction>
+	<instruction name="color_reduction" neumonic="COLOR_REDUCE" name_in_list="Color Reduction">
+		<description>Setting this value will allow the image to be stripped under a certain value</description>
+		<parameters>
+			<parameter id="color_bit_count" label="Color Bits">
+				<select>
+					<option>24 Bit Color</option>
+					<option>16 Bit color</option>
+					<option>8 Bit Color</option>
+					<option>4 Bit Color</option>
+					<option>Gray Color</option>
+				</select>
+			</parameter>
+		</parameters>
+	</instruction>
+	<instruction name="resize" neumonic="RESIZE" name_in_list="Resize Image">
+		<description>Performing this will force the image to the values specified</description>
+		<parameters>
+			<parameter id="X" label="Rescale X">
+				<text type="number"/>
+			</parameter>
+			<parameter id="Y" label="Rescale Y">
+				<text type="number"/>
+			</parameter>
+		</parameters>
+	</instruction>
+</image_instructions>

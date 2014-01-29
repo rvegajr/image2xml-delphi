@@ -1,0 +1,4 @@
+//+ Default settings
+Include source
+Trace source
+//-

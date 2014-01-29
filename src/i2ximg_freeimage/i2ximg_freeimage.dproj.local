@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/09/13 13:11:55.324.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Project1.dproj=C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dproj</Transaction>
+    <Transaction>2008/09/13 19:36:38.297.pas,C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\uFreeImage.pas</Transaction>
+    <Transaction>2008/09/13 19:39:36.251.pas,C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\uFreeImage.pas=C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\ui2ximg_FreeImage.pas</Transaction>
+    <Transaction>2008/09/17 00:35:25.248.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XDLL.pas=</Transaction>
+    <Transaction>2008/09/17 00:36:37.906.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uFileDir.pas=</Transaction>
+    <Transaction>2008/09/17 00:36:47.061.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\FastMM4.pas=</Transaction>
+    <Transaction>2008/09/17 00:36:51.582.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\FastMM4Messages.pas=</Transaction>
+    <Transaction>2008/09/17 00:37:00.723.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uDebug.pas=</Transaction>
+    <Transaction>2008/09/24 14:09:53.709.pas,C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\FreeImage.pas=</Transaction>
+    <Transaction>2008/09/24 17:16:36.871.pas,C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\FreeBitmap.pas</Transaction>
+    <Transaction>2008/10/05 14:20:12.364.pas,C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\Unit1.pas=C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XConstants.pas</Transaction>
+    <Transaction>2009/08/26 16:46:16.361.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XUndo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

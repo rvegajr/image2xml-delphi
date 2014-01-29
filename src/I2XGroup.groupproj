@@ -1,0 +1,85 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{a50bba68-433e-4235-b34d-24e3afc53d75}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="i2xocr_tocr">
+    <MSBuild Projects="i2xocr_tocr\i2xocr_tocr.dproj" Targets="" />
+  </Target>
+  <Target Name="i2xocr_tocr:Clean">
+    <MSBuild Projects="i2xocr_tocr\i2xocr_tocr.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="i2xocr_tocr:Make">
+    <MSBuild Projects="i2xocr_tocr\i2xocr_tocr.dproj" Targets="Make" />
+  </Target>
+  <Target Name="i2xocr_gocr">
+    <MSBuild Projects="i2xocr_gocr\i2xocr_gocr.dproj" Targets="" />
+  </Target>
+  <Target Name="i2xocr_gocr:Clean">
+    <MSBuild Projects="i2xocr_gocr\i2xocr_gocr.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="i2xocr_gocr:Make">
+    <MSBuild Projects="i2xocr_gocr\i2xocr_gocr.dproj" Targets="Make" />
+  </Target>
+  <Target Name="i2ximg_g32">
+    <MSBuild Projects="i2ximg_g32\i2ximg_g32.dproj" Targets="" />
+  </Target>
+  <Target Name="i2ximg_g32:Clean">
+    <MSBuild Projects="i2ximg_g32\i2ximg_g32.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="i2ximg_g32:Make">
+    <MSBuild Projects="i2ximg_g32\i2ximg_g32.dproj" Targets="Make" />
+  </Target>
+  <Target Name="i2ximg_mcm">
+    <MSBuild Projects="i2ximg_mcm\i2ximg_mcm.dproj" Targets="" />
+  </Target>
+  <Target Name="i2ximg_mcm:Clean">
+    <MSBuild Projects="i2ximg_mcm\i2ximg_mcm.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="i2ximg_mcm:Make">
+    <MSBuild Projects="i2ximg_mcm\i2ximg_mcm.dproj" Targets="Make" />
+  </Target>
+  <Target Name="i2ximg_freeimage">
+    <MSBuild Projects="i2ximg_freeimage\i2ximg_freeimage.dproj" Targets="" />
+  </Target>
+  <Target Name="i2ximg_freeimage:Clean">
+    <MSBuild Projects="i2ximg_freeimage\i2ximg_freeimage.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="i2ximg_freeimage:Make">
+    <MSBuild Projects="i2ximg_freeimage\i2ximg_freeimage.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Image2XML">
+    <MSBuild Projects="i2xui\Image2XML.dproj" Targets="" />
+  </Target>
+  <Target Name="Image2XML:Clean">
+    <MSBuild Projects="i2xui\Image2XML.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Image2XML:Make">
+    <MSBuild Projects="i2xui\Image2XML.dproj" Targets="Make" />
+  </Target>
+  <Target Name="I2XScanTray">
+    <MSBuild Projects="i2xscanui\I2XScanTray.dproj" Targets="" />
+  </Target>
+  <Target Name="I2XScanTray:Clean">
+    <MSBuild Projects="i2xscanui\I2XScanTray.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="I2XScanTray:Make">
+    <MSBuild Projects="i2xscanui\I2XScanTray.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="i2xocr_tocr;i2xocr_gocr;i2ximg_g32;i2ximg_mcm;i2ximg_freeimage;Image2XML;I2XScanTray" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="i2xocr_tocr:Clean;i2xocr_gocr:Clean;i2ximg_g32:Clean;i2ximg_mcm:Clean;i2ximg_freeimage:Clean;Image2XML:Clean;I2XScanTray:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="i2xocr_tocr:Make;i2xocr_gocr:Make;i2ximg_g32:Make;i2ximg_mcm:Make;i2ximg_freeimage:Make;Image2XML:Make;I2XScanTray:Make" />
+  </Target>
+</Project>

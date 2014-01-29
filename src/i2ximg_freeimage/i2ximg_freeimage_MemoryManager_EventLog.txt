@@ -1,0 +1,244 @@
+
+--------------------------------2008/11/20 9:13:56--------------------------------
+FastMM has detected an error during a GetMem operation. The block footer has been corrupted. 
+
+The previous block size was: 396
+
+Stack trace of when this block was previously allocated (return addresses):
+3E13115 [sys\system.pas][System][System.@ReallocMem][2786]
+3E161AF [sys\system.pas][System][System.DynArraySetLength][16859]
+3E16286 [sys\system.pas][System][System.@DynArraySetLength][16907]
+3E36A26 [common\IniFiles.pas][IniFiles][IniFiles.TStringHash.Create][417]
+3E80DC3 [OmniXML_Dictionary.pas][OmniXML_Dictionary][OmniXML_Dictionary.TDictionary.Resize][132]
+3E80C0D [OmniXML_Dictionary.pas][OmniXML_Dictionary][OmniXML_Dictionary.TDictionary.Create][85]
+3E8B81A [OmniXML.pas][OmniXML][OmniXML.TXMLDocument.Create][3442]
+3E86E47 [OmniXML.pas][OmniXML][OmniXML.CreateXMLDoc][1323]
+3EBBB7C [..\i2xcommon\uI2XPlugin.pas][uI2XPlugin][uI2XPlugin.TI2XPlugin.Create][67]
+3EBBFD6 [..\i2xcommon\uI2XImg.pas][uI2XImg][uI2XImg.TI2XImg.Create][49]
+
+The allocation number was: 435
+
+The current stack trace leading to this error (return addresses): 
+3E19E67 [FastMM4][FastMM4.DebugGetMem]
+3E13115 [sys\system.pas][System][System.@ReallocMem][2786]
+3E161AF [sys\system.pas][System][System.DynArraySetLength][16859]
+3E16286 [sys\system.pas][System][System.@DynArraySetLength][16907]
+3E36A26 [common\IniFiles.pas][IniFiles][IniFiles.TStringHash.Create][417]
+3E80DC3 [OmniXML_Dictionary.pas][OmniXML_Dictionary][OmniXML_Dictionary.TDictionary.Resize][132]
+3E80C0D [OmniXML_Dictionary.pas][OmniXML_Dictionary][OmniXML_Dictionary.TDictionary.Create][85]
+3E8B81A [OmniXML.pas][OmniXML][OmniXML.TXMLDocument.Create][3442]
+3E86E47 [OmniXML.pas][OmniXML][OmniXML.CreateXMLDoc][1323]
+3EBBB7C [..\i2xcommon\uI2XPlugin.pas][uI2XPlugin][uI2XPlugin.TI2XPlugin.Create][67]
+
+Current memory dump of 256 bytes starting at pointer address 412F5F0:
+01 00 00 00 61 00 00 00 58 E5 14 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 68 F7 14 04
+00 00 00 00 F8 EF 14 04 00 00 00 00 F0 F7 14 04 00 00 00 00 70 EF 14 04 00 00 00 00 00 00 00 00
+00 00 00 00 68 E6 14 04 00 00 00 00 00 00 00 00 B8 EB 14 04 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 78 F8 14 04 00 00 00 00 48 F5 14 04 00 00 00 00 00 00 00 00 88 F9 14 04 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 38 F4 14 04 40 EC 14 04 00 00 00 00 D0 F5 14 04
+00 00 00 00 00 00 00 00 00 00 00 00 60 EE 14 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 18 F2 14 04 00 E8 14 04 00 00 00 00 B0 F3 14 04 00 00 00 00 D8 ED 14 04
+00 00 00 00 20 EA 14 04 00 00 00 00 00 00 00 00 B8 FC 14 04 C0 F4 14 04 E8 EE 14 04 00 00 00 00
+.  .  .  .  a  .  .  .  X  Â  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  h  ˜  .  .
+.  .  .  .  ¯  Ô  .  .  .  .  .  .    ˜  .  .  .  .  .  .  p  Ô  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  h  Ê  .  .  .  .  .  .  .  .  .  .  ∏  Î  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  x  ¯  .  .  .  .  .  .  H  ı  .  .  .  .  .  .  .  .  .  .  à  ˘  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  8  Ù  .  .  @  Ï  .  .  .  .  .  .  –  ı  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  `  Ó  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  Ú  .  .  .  Ë  .  .  .  .  .  .  ∞  Û  .  .  .  .  .  .  ÿ  Ì  .  .
+.  .  .  .     Í  .  .  .  .  .  .  .  .  .  .  ∏  ¸  .  .  ¿  Ù  .  .  Ë  Ó  .  .  .  .  .  .
+
+--------------------------------2009/1/28 16:52:07--------------------------------
+FastMM has detected an attempt to call a virtual method on a freed object. An access violation will now be raised in order to abort the current operation.
+
+Freed object class: TI2XImgFreeImage
+
+Virtual method: Offset +4
+
+Virtual method address: 48D9630
+
+The allocation number was: 1318
+
+Stack trace of when the object was allocated (return addresses):
+48330A6 [sys\system.pas][System][System.@GetMem][2654]
+4833D5F [sys\system.pas][System][System.TObject.NewInstance][8807]
+48340CE [sys\system.pas][System][System.@ClassCreate][9472]
+48D95EE [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][ui2ximg_FreeImage.TI2XImgFreeImage.Create][60]
+4834D49 [sys\system.pas][System][System.@NewAnsiString][12429]
+4834D8C [sys\system.pas][System][System.@LStrFromPCharLen][12476]
+48DA818 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][i2ximg_freeimage._Initialize][147]
+48DA522 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][i2ximg_freeimage.Initialize][62]
+5359EF [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLObject.setDLLName][379]
+405A16 [sys\system.pas][System][ThreadWrapper][12110]
+
+Stack trace of when the object was subsequently freed (return addresses):
+48330C2 [sys\system.pas][System][System.@FreeMem][2699]
+4833D7D [sys\system.pas][System][System.TObject.FreeInstance][8813]
+4834119 [sys\system.pas][System][System.@ClassDestroy][9513]
+4833DB6 [sys\system.pas][System][System.TObject.Destroy][8827]
+4833DC3 [sys\system.pas][System][System.TObject.Free][8832]
+4842849 [sys\sysutils.pas][SysUtils][SysUtils.FreeAndNil][16957]
+48DA866 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][i2ximg_freeimage._Terminate][153]
+48DA5AB [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][i2ximg_freeimage.Terminate][68]
+5353E8 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLObject.Destroy][236]
+535F75 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.Destroy][426]
+
+The current stack trace leading to this error (return addresses): 
+48D99FE [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][ui2ximg_FreeImage.TI2XImgFreeImage.ProcessImage][113]
+48DA728 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][i2ximg_freeimage.ProcessImage][126]
+5362E8 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][533]
+573EBF [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Execute][85]
+454329 [madExcept][HookedTThreadExecute]
+4750B3 [common\Classes.pas][Classes][ThreadProc][9877]
+405A16 [sys\system.pas][System][ThreadWrapper][12110]
+45420B [madExcept][CallThreadProcSafe]
+454278 [madExcept][ThreadExceptFrame]
+76534911 [BaseThreadInitThunk]
+
+Current memory dump of 256 bytes starting at pointer address 4ADBC40:
+08 6E 8E 04 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 C0 73 21 AD
+80 80 80 80 80 80 80 80 00 00 00 00 51 D5 AD 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+2C 05 00 00 A6 30 83 04 5F 3D 83 04 CE 40 83 04 94 3D 83 04 CE 40 83 04 BB D5 89 04 D2 81 8A 04
+FF 37 8A 04 00 87 8D 04 5A 8B 8D 04 C2 30 83 04 7D 3D 83 04 19 41 83 04 E3 06 85 04 C3 3D 83 04
+49 28 84 04 FB D5 89 04 C3 3D 83 04 49 28 84 04 9B 82 8A 04 38 00 00 00 70 C9 84 04 68 35 AE 63
+08 6E 8E 04 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 97 CA 51 9C 80 80 80 80
+.  n  é  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ¿  s  !  ≠
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  Q  ’  ≠  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+,  .  .  .  ¶  0  É  .  _  =  É  .  Œ  @  É  .  î  =  É  .  Œ  @  É  .  ª  ’  â  .  “  Å  ä  .
+ˇ  7  ä  .  .  á  ç  .  Z  ã  ç  .  ¬  0  É  .  }  =  É  .  .  A  É  .  „  .  Ö  .  √  =  É  .
+I  (  Ñ  .  ˚  ’  â  .  √  =  É  .  I  (  Ñ  .  õ  Ç  ä  .  8  .  .  .  p  …  Ñ  .  h  5  Æ  c
+.  n  é  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ó     Q  ú  Ä  Ä  Ä  Ä
+
+--------------------------------2009/5/20 13:39:34--------------------------------
+FastMM has detected an attempt to call a virtual method on a freed object. An access violation will now be raised in order to abort the current operation.
+
+Freed object class: TStringList
+
+Virtual method: Destroy
+
+Virtual method address: 44B0838
+
+The allocation number was: 1427
+
+Stack trace of when the object was allocated (return addresses):
+44930A6 [sys\system.pas][System][@GetMem][2654]
+4493D5F [sys\system.pas][System][TObject.NewInstance][8807]
+44940CE [sys\system.pas][System][@ClassCreate][9472]
+4493D94 [sys\system.pas][System][TObject.Create][8822]
+576CA0 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Destroy][59]
+453FB26 [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ExecuteInstruction][83]
+453FF5B [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][133]
+4540D68 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+5397C4 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][580]
+576E7F [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.ExecuteImageProc][94]
+
+Stack trace of when the object was subsequently freed (return addresses):
+44930C2 [sys\system.pas][System][@FreeMem][2699]
+4493D7D [sys\system.pas][System][TObject.FreeInstance][8813]
+4494119 [sys\system.pas][System][@ClassDestroy][9513]
+44B088F [common\Classes.pas][Classes][TStringList.Destroy][4938]
+4493DC3 [sys\system.pas][System][TObject.Free][8832]
+44A29F5 [sys\sysutils.pas][SysUtils][FreeAndNil][16957]
+453FCD0 [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ExecuteInstruction][102]
+453FF5B [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][133]
+4540D68 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+5397C4 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][580]
+
+The current stack trace leading to this error (return addresses): 
+4493DC3 [sys\system.pas][System][TObject.Free][8832]
+44A29F5 [sys\sysutils.pas][SysUtils][FreeAndNil][16957]
+453FFEA [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][148]
+4540D68 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+5397C4 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][580]
+576E7F [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.ExecuteImageProc][94]
+576CA0 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Destroy][59]
+576CA5 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Execute][63]
+4544AD [madExcept][HookedTThreadExecute]
+475657 [common\Classes.pas][Classes][ThreadProc][9877]
+
+Current memory dump of 256 bytes starting at pointer address 4C15250:
+08 DE 54 04 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 0F B5 C6 B0 80 80 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+9E 05 00 00 15 31 49 04 BB 62 49 04 15 15 4C 04 92 63 49 04 FF FF 4F 04 23 08 54 04 B5 FB 53 04
+5B FF 53 04 68 0D 54 04 C4 97 53 00 C2 30 49 04 E0 64 49 04 AF 00 50 04 23 08 54 04 B5 FB 53 04
+5B FF 53 04 68 0D 54 04 C4 97 53 00 7F 6E 57 00 A0 6C 57 00 38 00 00 00 00 00 00 00 1A 27 12 4B
+08 DE 54 04 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 E5 D8 ED B4 80 80 80 80
+.  ﬁ  T  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  µ  ∆  ∞  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+û  .  .  .  .  1  I  .  ª  b  I  .  .  .  L  .  í  c  I  .  ˇ  ˇ  O  .  #  .  T  .  µ  ˚  S  .
+[  ˇ  S  .  h  .  T  .  ƒ  ó  S  .  ¬  0  I  .  ‡  d  I  .  Ø  .  P  .  #  .  T  .  µ  ˚  S  .
+[  ˇ  S  .  h  .  T  .  ƒ  ó  S  .    n  W  .  †  l  W  .  8  .  .  .  .  .  .  .  .  '  .  K
+.  ﬁ  T  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Â  ÿ  Ì  ¥  Ä  Ä  Ä  Ä
+
+--------------------------------2009/5/20 14:28:12--------------------------------
+FastMM has detected an attempt to call a virtual method on a freed object. An access violation will now be raised in order to abort the current operation.
+
+Freed object class: TBitmap32
+
+Virtual method: Destroy
+
+Virtual method address: 464A9C0
+
+The allocation number was: 1410
+
+Stack trace of when the object was allocated (return addresses):
+45E30A6 [sys\system.pas][System][@GetMem][2654]
+45E3D5F [sys\system.pas][System][TObject.NewInstance][8807]
+45E40E6 [sys\system.pas][System][@ClassCreate][9472]
+464A906 [GR32.pas][GR32][TBitmap32.Create][1621]
+45E3D7D [sys\system.pas][System][TObject.FreeInstance][8813]
+45E4131 [sys\system.pas][System][@ClassDestroy][9513]
+46537D6 [..\i2xcommon\uStrUtil.pas][uStrUtil][CStrUtil.Destroy][330]
+469358D [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][124]
+4653C9B [..\i2xcommon\uStrUtil.pas][uStrUtil][TStringList2.fromString][644]
+4694454 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+
+Stack trace of when the object was subsequently freed (return addresses):
+45E30C2 [sys\system.pas][System][@FreeMem][2699]
+45E3D7D [sys\system.pas][System][TObject.FreeInstance][8813]
+45E4131 [sys\system.pas][System][@ClassDestroy][9513]
+464AA57 [GR32.pas][GR32][TBitmap32.Destroy][1659]
+45E3DC3 [sys\system.pas][System][TObject.Free][8832]
+4693601 [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][134]
+4694454 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+5397C4 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][580]
+576E7F [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.ExecuteImageProc][94]
+576CA0 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Destroy][59]
+
+The current stack trace leading to this error (return addresses): 
+45E3DC3 [sys\system.pas][System][TObject.Free][8832]
+45F2B49 [sys\sysutils.pas][SysUtils][FreeAndNil][16957]
+46936D6 [ui2ximg_FreeImage.pas][ui2ximg_FreeImage][TI2XImgFreeImage.ProcessImage][154]
+4694454 [C:\Dark\pascal\Image2XML\src\i2ximg_freeimage\i2ximg_freeimage.dpr][i2ximg_freeimage][ProcessImage][142]
+5397C4 [..\i2xcommon\uI2XDLL.pas][uI2XDLL][TDLLImageProc.ProcessImage][580]
+576E7F [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.ExecuteImageProc][94]
+576CA0 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Destroy][59]
+576CA5 [..\i2xcommon\uI2XImageProcJobThread.pas][uI2XImageProcJobThread][TI2XImageProcJobThread.Execute][63]
+4544AD [madExcept][HookedTThreadExecute]
+475657 [common\Classes.pas][Classes][ThreadProc][9877]
+
+Current memory dump of 256 bytes starting at pointer address 4DD14F0:
+08 0E 6A 04 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+.  .  j  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä

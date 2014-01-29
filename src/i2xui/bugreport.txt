@@ -1,0 +1,1996 @@
+date/time         : 2009-08-26, 15:09:46, 925ms
+computer name     : NADIR
+wts client name   : ZIONXP
+user name         : Administrator <admin>
+registered owner  : Ricardo Vega
+operating system  : Windows Vista Service Pack 1 build 6001
+system language   : English
+system up time    : 1 day 22 hours
+program up time   : 2 minutes 22 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T5550 @ 1.83GHz
+physical memory   : 1224/3061 MB (free/total)
+free disk space   : (C:) 20.20 GB
+display mode      : 1280x1024, 16 bit
+process id        : $12dc
+allocated memory  : 95.35 MB
+command line      : "C:\Dark\pascal\Image2XML\src\i2xui\Image2XML.exe" -x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'
+executable        : Image2XML.exe
+exec. date/time   : 2009-08-26 15:07
+version           : 0.9.7.5
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $1ef9df53, $52bbb30c, $5d0b9e1c
+exception number  : 1
+exception class   : Exception
+exception message : Cannot Move Element because an id of total already.
+
+main thread ($18e4):
+00542722 +13a Image2XML.exe uI2XTemplate  2152  +24 CTemplate.MoveElement
+0058eaef +113 Image2XML.exe UII2XBase     2163  +31 TI2XBaseUI.tvRegionsDragDrop
+004a826b +01f Image2XML.exe Controls      4643   +1 TControl.DragDrop
+004a87cb +0e3 Image2XML.exe Controls      4822  +24 TControl.DoDragMsg
+004aefe7 +027 Image2XML.exe Controls      8463   +4 TWinControl.CMDrag
+0055658e +00e Image2XML.exe ComCtrls      9567   +1 TCustomTreeView.CMDrag
+004a9027 +2bb Image2XML.exe Controls      5146  +83 TControl.WndProc
+004acf2e +4fa Image2XML.exe Controls      7271 +111 TWinControl.WndProc
+005564b8 +084 Image2XML.exe ComCtrls      9529  +13 TCustomTreeView.WndProc
+004ac658 +02c Image2XML.exe Controls      7040   +3 TWinControl.MainWndProc
+00476fa0 +014 Image2XML.exe Classes      11583   +8 StdWndProc
+770b049d +044 USER32.dll                            SendMessageA
+004a533d +045 Image2XML.exe Controls      2858   +8 DragMessage
+004a5dbb +223 Image2XML.exe Controls      3192  +59 DragDone
+004a4abe +092 Image2XML.exe Controls      2436  +12 TDragObject.WndProc
+004a4ba5 +01d Image2XML.exe Controls      2495   +2 TDragObject.MainWndProc
+00476fa0 +014 Image2XML.exe Classes      11583   +8 StdWndProc
+770b5a27 +00a USER32.dll                            DispatchMessageA
+004c5ff4 +0fc Image2XML.exe Forms         8015  +23 TApplication.ProcessMessage
+004c602e +00a Image2XML.exe Forms         8034   +1 TApplication.HandleMessage
+004c6284 +0cc Image2XML.exe Forms         8125  +23 TApplication.Run
+0059e717 +497 Image2XML.exe Image2XML      124  +60 initialization
+76a3490f +010 kernel32.dll                          BaseThreadInitThunk
+
+thread $1d10 (TmcmTWAINThread):
+770c0ddc +0a USER32.dll                             WaitMessage
+00576288 +1c Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Execute
+004546bf +2b Image2XML.exe madExcept                HookedTThreadExecute
+00475868 +34 Image2XML.exe Classes         9877  +7 ThreadProc
+00405c28 +28 Image2XML.exe System         12110 +33 ThreadWrapper
+004545a1 +0d Image2XML.exe madExcept                CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept                ThreadExceptFrame
+76a3490f +10 kernel32.dll                           BaseThreadInitThunk
+>> created by main thread ($18e4) at:
+00575eb7 +53 Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Create
+
+thread $fdc:
+77198ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76a35234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1c90 at:
+75832591 +00 RPCRT4.dll
+
+thread $8f0:
+771983b2 +0a ntdll.dll               NtDelayExecution
+76a3c34a +4c kernel32.dll            SleepEx
+769f1c75 +0a kernel32.dll            Sleep
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1c90 at:
+759f2beb +00 ole32.dll
+
+modules:
+00400000 Image2XML.exe            0.9.7.5            C:\Dark\pascal\Image2XML\src\i2xui
+01020000 FastMM_FullDebugMode.dll 1.44.0.4           C:\Dark\pascal\Image2XML\src\i2xui
+06fb0000 i2ximg_freeimage.dll     1.0.0.143          C:\Dark\pascal\Image2XML\src\i2ximg_freeimage
+07510000 FreeImage.dll            3.10.0.0           C:\Dark\pascal\Image2XML\src\i2xui
+07730000 TOCRRdll.dll             1.0.4.101          C:\Dark\pascal\Image2XML\src\i2xui
+07910000 i2ximg_g32.dll           1.0.0.180          C:\Dark\pascal\Image2XML\src\i2ximg_g32
+07b60000 i2ximg_mcm.dll           1.0.0.151          C:\Dark\pascal\Image2XML\src\i2ximg_mcm
+08210000 i2xocr_gocr.dll          1.0.0.124          C:\Dark\pascal\Image2XML\src\i2xocr_gocr
+08880000 i2xocr_tocr.dll          1.0.0.313          C:\Dark\pascal\Image2XML\src\i2xocr_tocr
+10000000 KeyLib32.dll             4.5.0.2            C:\Windows\system32
+66e20000 hhctrl.ocx               6.0.6001.18000     C:\Windows\system32
+6c810000 sti.dll                  6.0.6000.16386     C:\Windows\System32
+6ec80000 wiatrace.dll             6.0.6000.16386     C:\Windows\system32
+6eef0000 CFGMGR32.dll             6.0.6001.18000     C:\Windows\System32
+6f440000 WINSPOOL.DRV             6.0.6001.18000     C:\Windows\system32
+6ffb0000 wiadss.dll               6.0.6001.18000     C:\Windows\system32
+71050000 comctl32.dll             5.82.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05
+71440000 wsock32.dll              6.0.6001.18000     C:\Windows\system32
+72ee0000 DWMAPI.DLL               6.0.6001.18000     C:\Windows\system32
+73090000 gdiplus.dll              5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+74160000 uxtheme.dll              6.0.6001.18000     C:\Windows\system32
+74350000 wtsapi32.dll             6.0.6001.18000     C:\Windows\system32
+744a0000 msimg32.dll              6.0.6000.16386     C:\Windows\system32
+74730000 comctl32.dll             6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+748d0000 NTMARTA.DLL              6.0.6001.18000     C:\Windows\system32
+74950000 rsaenh.dll               6.0.6001.18000     C:\Windows\system32
+749d0000 OLEACC.dll               4.2.5406.0         C:\Windows\system32
+74d90000 version.dll              6.0.6001.18000     C:\Windows\system32
+750b0000 mpr.dll                  6.0.6001.18000     C:\Windows\system32
+75270000 SAMLIB.dll               6.0.6001.18000     C:\Windows\system32
+75650000 WINSTA.dll               6.0.6001.18000     C:\Windows\system32
+75680000 Secur32.dll              6.0.6001.18215     C:\Windows\system32
+75750000 PSAPI.DLL                6.0.6000.16386     C:\Windows\system32
+757f0000 RPCRT4.dll               6.0.6001.18051     C:\Windows\system32
+758f0000 comdlg32.dll             6.0.6001.18000     C:\Windows\system32
+75970000 GDI32.dll                6.0.6001.18159     C:\Windows\system32
+759c0000 ole32.dll                6.0.6001.18000     C:\Windows\system32
+75b10000 USP10.dll                1.626.6001.18000   C:\Windows\system32
+75b90000 oleaut32.dll             6.0.6001.18000     C:\Windows\system32
+75d60000 shell32.dll              6.0.6001.18167     C:\Windows\system32
+76960000 CLBCatQ.DLL              2001.12.6931.18000 C:\Windows\system32
+769f0000 kernel32.dll             6.0.6001.18215     C:\Windows\system32
+76ad0000 ADVAPI32.dll             6.0.6001.18000     C:\Windows\system32
+76ba0000 msvcrt.dll               7.0.6001.18000     C:\Windows\system32
+76e40000 setupapi.DLL             6.0.6001.18000     C:\Windows\system32
+76fd0000 MSCTF.dll                6.0.6001.18000     C:\Windows\system32
+770a0000 USER32.dll               6.0.6001.18000     C:\Windows\system32
+77140000 ntdll.dll                6.0.6001.18000     C:\Windows\system32
+77270000 LPK.DLL                  6.0.6001.18000     C:\Windows\system32
+77280000 NSI.dll                  6.0.6001.18000     C:\Windows\system32
+772a0000 SHLWAPI.dll              6.0.6001.18000     C:\Windows\system32
+77300000 WS2_32.dll               6.0.6001.18000     C:\Windows\system32
+77330000 WLDAP32.dll              6.0.6001.18000     C:\Windows\system32
+77380000 IMM32.DLL                6.0.6001.18000     C:\Windows\system32
+
+processes:
+0000 Idle                         0
+0004 System                       0
+01d4 smss.exe                     0 normal       C:\Windows\system32
+0218 csrss.exe                    0 normal       C:\Windows\system32
+0244 csrss.exe                    1 normal       C:\Windows\system32
+024c wininit.exe                  0 high         C:\Windows\system32
+0274 winlogon.exe                 1 high         C:\Windows\system32
+029c services.exe                 0 normal       C:\Windows\system32
+02bc lsass.exe                    0 normal       C:\Windows\system32
+02c4 lsm.exe                      0 normal       C:\Windows\system32
+0348 svchost.exe                  0 normal       C:\Windows\system32
+0370 PresentationFontCache.exe    0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03a0 svchost.exe                  0 normal       C:\Windows\system32
+03d0 svchost.exe                  0 normal       C:\Windows\System32
+0434 svchost.exe                  0 normal       C:\Windows\System32
+044c svchost.exe                  0 normal       C:\Windows\System32
+045c svchost.exe                  0 normal       C:\Windows\system32
+04ec audiodg.exe                  0
+050c svchost.exe                  0 normal       C:\Windows\system32
+0534 SLsvc.exe                    0 normal       C:\Windows\system32
+056c svchost.exe                  0 normal       C:\Windows\system32
+0614 svchost.exe                  0 normal       C:\Windows\system32
+06d4 ccSvcHst.exe                 0 normal       C:\Program Files\Common Files\Symantec Shared
+07a8 spoolsv.exe                  0 normal       C:\Windows\System32
+07c0 svchost.exe                  0 normal       C:\Windows\system32
+020c taskeng.exe                  0 below normal C:\Windows\system32
+063c svchost.exe                  0 normal       C:\Windows\system32
+068c AppleMobileDeviceService.exe 0 normal       C:\Program Files\Common Files\Apple\Mobile Device Support\bin
+04a8 mDNSResponder.exe            0 normal       C:\Program Files\Bonjour
+07c8 DefWatch.exe                 0 normal       C:\Program Files\Symantec AntiVirus
+0644 hamachi.exe                  0 normal       C:\Program Files\Hamachi
+0774 inetinfo.exe                 0 normal       C:\Windows\system32\inetsrv
+0810 sqlservr.exe                 0 normal       c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn
+0824 sqlservr.exe                 0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+084c NMSAccessU.exe               0 normal       C:\Program Files\CDBurnerXP
+0864 ORACLE.EXE                   0 normal       c:\oraclexe\app\oracle\product\10.2.0\server\bin
+08b4 tnslsnr.exe                  0 normal       C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+08d8 svchost.exe                  0 normal       C:\Windows\system32
+08fc ReportingServicesService.exe 0 normal       C:\Program Files\Microsoft SQL Server\MSRS10.SQLEXPRESS2008\Reporting Services\ReportServer\bin
+0a0c tcpsvcs.exe                  0 normal       C:\Windows\System32
+0a30 snmp.exe                     0 normal       C:\Windows\System32
+0a3c sqlwriter.exe                0 normal       c:\Program Files\Microsoft SQL Server\90\Shared
+0a54 svchost.exe                  0 normal       C:\Windows\system32
+0aa8 Rtvscan.exe                  0 normal       C:\Program Files\Symantec AntiVirus
+0b10 TosCoSrv.exe                 0 normal       C:\Program Files\Toshiba\Power Saver
+0b58 vmnat.exe                    0 normal       C:\Windows\system32
+0b6c svchost.exe                  0 normal       C:\Windows\system32
+0b7c svchost.exe                  0 normal       C:\Windows\System32
+0bac vmnetdhcp.exe                0 normal       C:\Windows\system32
+0c08 vmware-authd.exe             0 normal       C:\Program Files\VMware\VMware Workstation
+0f04 fdlauncher.exe               0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0f54 fdhost.exe                   0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+101c taskeng.exe                  1 normal       C:\Windows\system32
+10a8 Dwm.exe                      1 normal       C:\Windows\system32
+10d8 Explorer.EXE                 1 normal       C:\Windows
+1198 VPTray.exe                   1 below normal C:\Program Files\Symantec AntiVirus
+11a8 igfxpers.exe                 1 normal       C:\Windows\System32
+11c0 hkcmd.exe                    1 normal       C:\Windows\System32
+11d0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+11d8 ccApp.exe                    1 normal       C:\Program Files\Common Files\Symantec Shared
+11f8 traybar.exe                  1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+1204 TSVNCache.exe                1 normal       C:\Program Files\TortoiseSVN\bin
+1224 iTunesHelper.exe             1 normal       C:\Program Files\iTunes
+1244 TOSCDSPD.exe                 1 normal       C:\Program Files\Toshiba\TOSCDSPD
+1260 DocuAction.exe               1 normal       C:\Program Files\Plustek\Plustek SmartOffice PS252
+1268 hamachi.exe                  1 normal       C:\Program Files\Hamachi
+12a0 igfxsrvc.exe                 1 normal       C:\Windows\system32
+1628 CEC_MAIN.exe                 1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+17d8 iPodService.exe              0 normal       C:\Program Files\iPod\bin
+17e0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+1604 notepad++.exe                1 normal       C:\Program Files\Notepad++
+1318 XMLSpy.exe                   1 normal       C:\Program Files\Altova\XMLSpy2008
+1074 thunderbird.exe              1 normal       C:\Program Files\Mozilla Thunderbird
+049c chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1454 pidgin.exe                   1 normal       C:\Program Files\Pidgin
+1070 AcroTray.exe                 1 normal       C:\Program Files\Adobe\Acrobat 8.0\Acrobat
+17a0 FNPLicensingService.exe      0 normal       C:\Program Files\Common Files\Macrovision Shared\FLEXnet Publisher
+18a4 mobsync.exe                  1 normal       C:\Windows\System32
+1d4c bds.exe                      1 normal       C:\Program Files\CodeGear\RAD Studio\5.0\bin
+16f0 mstsc.exe                    1 normal       C:\Windows\System32
+1a34 csrss.exe                    3 normal       C:\Windows\system32
+03b8 winlogon.exe                 3 high         C:\Windows\system32
+08e4 LogonUI.exe                  3 high         C:\Windows\system32
+1c44 rdpclip.exe                  1 normal       C:\Windows\system32
+1ad8 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1f14 wuauclt.exe                  1 normal       C:\Windows\system32
+1184 dexplore.exe                 1 normal       C:\Program Files\Common Files\Microsoft Shared\Help 8
+18f0 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+12dc Image2XML.exe                1 normal       C:\Dark\pascal\Image2XML\src\i2xui
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - TOSHIBA MK2546GSX ATA Device
++ Display adapters
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GSA-T40F ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) ICH8M SATA AHCI Controller - 2829 (driver 6.8.0.3002)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
+  - Ricoh Memory Stick Controller (driver 6.0.1.10)
+  - Ricoh SD/MMC Host Controller (driver 6.0.2.3)
+  - Ricoh xD-Picture Card Controller (driver 6.0.1.12)
++ IEEE 1394 Bus host controllers
+  - RICOH OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.238.1217)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Mice and other pointing devices
+  - PS/2 Compatible Mouse
++ Modems
+  - TOSHIBA Software Modem
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Hamachi Network Interface (driver 6.0.2.2)
+  - Intel(R) PRO/Wireless 3945ABG Network Connection (driver 11.5.0.32)
+  - Realtek RTL8102E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.201.1228.2007)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.2.0)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ System devices
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - Intel(R) ICH8M-E LPC Interface Controller - 2815
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA Firmware Linkage Driver (driver 1.0.0.3)
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.0)
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 027039f0
+ebx = 026827a0
+ecx = 027039f0
+edx = 00542722
+esi = 026decd0
+edi = 026dbc10
+eip = 00542722
+esp = 0012f8c4
+ebp = 0012f924
+
+stack dump:
+0012f8c4  22 27 54 00 de fa ed 0e - 01 00 00 00 07 00 00 00  "'T.............
+0012f8d4  d8 f8 12 00 22 27 54 00 - f0 39 70 02 a0 27 68 02  ...."'T..9p..'h.
+0012f8e4  d0 ec 6d 02 10 bc 6d 02 - 24 f9 12 00 f4 f8 12 00  ..m...m.$.......
+0012f8f4  30 f9 12 00 e8 54 40 00 - 24 f9 12 00 20 b6 28 04  0....T@.$.....(.
+0012f904  d0 ec 6d 02 a0 27 68 02 - 00 00 00 00 00 00 00 00  ..m..'h.........
+0012f914  00 00 00 00 00 00 00 00 - 00 00 00 00 e0 a0 6d 02  ..............m.
+0012f924  5c f9 12 00 f4 ea 58 00 - 00 00 00 00 50 fb 12 00  \.....X.....P...
+0012f934  e8 54 40 00 5c f9 12 00 - b0 fc 12 00 4c 82 4a 00  .T@.\.......L.J.
+0012f944  c0 04 5f 02 00 00 00 00 - 9d fa 4a 01 10 bc 6d 02  .._.......J...m.
+0012f954  64 f9 12 02 c0 04 5f 02 - 70 f9 12 00 71 82 4a 00  d....._.p...q.J.
+0012f964  95 00 00 00 2c 00 00 00 - 00 00 00 00 80 fb 12 00  ....,...........
+0012f974  d0 87 4a 00 95 00 00 00 - c0 04 5f 02 00 2c 00 00  ..J......._..,..
+0012f984  00 95 00 00 00 00 00 00 - f8 fa 12 00 b0 fc 12 00  ................
+0012f994  c0 04 5f 02 80 fb 12 00 - ec ef 4a 00 4a 60 4b 00  .._.......J.J`K.
+0012f9a4  c0 04 5f 02 f8 fa 12 00 - 2f b0 00 00 80 fb 12 00  .._...../.......
+0012f9b4  c0 04 5f 02 93 65 55 00 - 19 00 00 00 2f b0 00 00  .._..eU...../...
+0012f9c4  2f b0 00 00 c0 04 5f 02 - 80 fb 12 00 2a 90 4a 00  /....._.....*.J.
+0012f9d4  2f b0 00 00 80 fb 12 00 - c0 04 5f 02 84 00 00 00  /........._.....
+0012f9e4  00 00 00 00 88 fa 12 00 - 94 fb 12 00 88 fa 12 00  ................
+0012f9f4  b2 e3 05 71 00 00 00 00 - 57 04 de 00 b8 fa 12 00  ...q....W.......
+
+date/time         : 2009-08-26, 15:52:21, 839ms
+computer name     : NADIR
+wts client name   : ZIONXP
+user name         : Administrator <admin>
+registered owner  : Ricardo Vega
+operating system  : Windows Vista Service Pack 1 build 6001
+system language   : English
+system up time    : 1 day 23 hours
+program up time   : 44 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T5550 @ 1.83GHz
+physical memory   : 1416/3061 MB (free/total)
+free disk space   : (C:) 20.20 GB
+display mode      : 1280x1024, 16 bit
+process id        : $dc0
+allocated memory  : 51.79 MB
+command line      : "C:\Dark\pascal\Image2XML\src\i2xui\Image2XML.exe" -x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'
+executable        : Image2XML.exe
+exec. date/time   : 2009-08-26 15:51
+version           : 0.9.7.5
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $26076f5c, $d4c0fcc8, $d4c0fcc8
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 76A342EB in module 'kernel32.dll'. Write of address 00000000.
+
+main thread ($1830):
+76a342eb +0058 kernel32.dll                       RaiseException
+0040c0c4 +02a8 Image2XML.exe FastMM4              TFreedObject.VirtualMethodError
+75978c9e +2c93 GDI32.dll                          PolyPatBlt
+770b92f5 +004a USER32.dll                         FillRect
+0047dc95 +0029 Image2XML.exe Graphics   2478   +3 TCanvas.FillRect
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004a8cb4 +0024 Image2XML.exe Controls   5021   +5 TControl.Perform
+7597835b +00aa GDI32.dll                          ExtTextOutW
+7727136a +0024 LPK.DLL                            LpkExtTextOut
+75977eed +0000 GDI32.dll                          ExtTextOutW
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+004ad21e +001e Image2XML.exe Controls   7368   +5 TWinControl.PaintWindow
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+7597835b +00aa GDI32.dll                          ExtTextOutW
+7727136a +0024 LPK.DLL                            LpkExtTextOut
+75977eed +0000 GDI32.dll                          ExtTextOutW
+004ad21e +001e Image2XML.exe Controls   7368   +5 TWinControl.PaintWindow
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ac658 +002c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+771999cb +002b ntdll.dll                          KiUserCallbackDispatcher
+7597835b +00aa GDI32.dll                          ExtTextOutW
+7727136a +0024 LPK.DLL                            LpkExtTextOut
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ac658 +002c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+005564b8 +0084 Image2XML.exe ComCtrls   9529  +13 TCustomTreeView.WndProc
+004a8cb4 +0024 Image2XML.exe Controls   5021   +5 TControl.Perform
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+7597a238 +0013 GDI32.dll                          GetTextExtentPointW
+770b9828 +008b USER32.dll                         WCSToMBEx
+770afa30 +004f USER32.dll                         DefWindowProcA
+770c050c +004f USER32.dll                         DefWindowProcW
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004a8cb4 +0024 Image2XML.exe Controls   5021   +5 TControl.Perform
+004ad07f +0023 Image2XML.exe Controls   7320   +6 DoControlMsg
+004ac658 +002c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ac658 +002c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004acf2e +04fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ac658 +002c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fa0 +0014 Image2XML.exe Classes   11583   +8 StdWndProc
+0040504a +0002 Image2XML.exe System     9513   +0 @ClassDestroy
+0055299d +00dd Image2XML.exe ComCtrls   7077  +26 TTreeNode.Destroy
+00404cdc +0008 Image2XML.exe System     8832   +1 TObject.Free
+005539aa +0006 Image2XML.exe ComCtrls   7831   +1 TTreeNode.Delete
+00553e8e +0002 Image2XML.exe ComCtrls   8001   +0 TTreeNodes.Delete
+00556261 +0931 Image2XML.exe ComCtrls   9459 +200 TCustomTreeView.CNNotify
+004a9027 +02bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+00404cdc +0008 Image2XML.exe System     8832   +1 TObject.Free
+0040504a +0002 Image2XML.exe System     9513   +0 @ClassDestroy
+0056676d +001d Image2XML.exe uI2XUndo    461   +3 TUndoRegionItem.Destroy
+00404cdc +0008 Image2XML.exe System     8832   +1 TObject.Free
+00460880 +0008 Image2XML.exe SysUtils  16957   +2 FreeAndNil
+005667d2 +001e Image2XML.exe uI2XUndo    491   +0 Finalization
+00405891 +0039 Image2XML.exe System    11256  +20 FinalizeUnits
+00453bcc +0054 Image2XML.exe madExcept            InterceptFinalizeUnits
+00405b42 +0056 Image2XML.exe System    11926  +44 @Halt0
+0059e74c +04cc Image2XML.exe Image2XML   126  +62 initialization
+76a3490f +0010 kernel32.dll                       BaseThreadInitThunk
+
+thread $2f4:
+77198ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76a35234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1e08 at:
+75832591 +00 RPCRT4.dll
+
+thread $1ae4:
+771983b2 +0a ntdll.dll               NtDelayExecution
+76a3c34a +4c kernel32.dll            SleepEx
+769f1c75 +0a kernel32.dll            Sleep
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1e08 at:
+759f2beb +00 ole32.dll
+
+thread $1448:
+77198ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76a35234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $2f4 at:
+75832591 +00 RPCRT4.dll
+
+modules:
+00140000 FastMM_FullDebugMode.dll 1.44.0.4           C:\Dark\pascal\Image2XML\src\i2xui
+00400000 Image2XML.exe            0.9.7.5            C:\Dark\pascal\Image2XML\src\i2xui
+06fb0000 i2ximg_freeimage.dll     1.0.0.143          C:\Dark\pascal\Image2XML\src\i2ximg_freeimage
+07510000 FreeImage.dll            3.10.0.0           C:\Dark\pascal\Image2XML\src\i2xui
+07850000 i2ximg_g32.dll           1.0.0.180          C:\Dark\pascal\Image2XML\src\i2ximg_g32
+07ab0000 i2ximg_mcm.dll           1.0.0.151          C:\Dark\pascal\Image2XML\src\i2ximg_mcm
+08170000 i2xocr_gocr.dll          1.0.0.124          C:\Dark\pascal\Image2XML\src\i2xocr_gocr
+087f0000 i2xocr_tocr.dll          1.0.0.313          C:\Dark\pascal\Image2XML\src\i2xocr_tocr
+08d40000 TOCRRdll.dll             1.0.4.101          C:\Dark\pascal\Image2XML\src\i2xui
+10000000 KeyLib32.dll             4.5.0.2            C:\Windows\system32
+66c90000 hhctrl.ocx               6.0.6001.18000     C:\Windows\system32
+67650000 wiadss.dll               6.0.6001.18000     C:\Windows\system32
+6c810000 sti.dll                  6.0.6000.16386     C:\Windows\System32
+6ec80000 wiatrace.dll             6.0.6000.16386     C:\Windows\system32
+6eef0000 CFGMGR32.dll             6.0.6001.18000     C:\Windows\System32
+6f440000 WINSPOOL.DRV             6.0.6001.18000     C:\Windows\system32
+71050000 comctl32.dll             5.82.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05
+71440000 wsock32.dll              6.0.6001.18000     C:\Windows\system32
+72ee0000 DWMAPI.DLL               6.0.6001.18000     C:\Windows\system32
+73090000 gdiplus.dll              5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+74160000 uxtheme.dll              6.0.6001.18000     C:\Windows\system32
+74350000 wtsapi32.dll             6.0.6001.18000     C:\Windows\system32
+744a0000 msimg32.dll              6.0.6000.16386     C:\Windows\system32
+74730000 comctl32.dll             6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+748d0000 NTMARTA.DLL              6.0.6001.18000     C:\Windows\system32
+74950000 rsaenh.dll               6.0.6001.18000     C:\Windows\system32
+749d0000 OLEACC.dll               4.2.5406.0         C:\Windows\system32
+74d90000 version.dll              6.0.6001.18000     C:\Windows\system32
+750b0000 mpr.dll                  6.0.6001.18000     C:\Windows\system32
+75270000 SAMLIB.dll               6.0.6001.18000     C:\Windows\system32
+75650000 WINSTA.dll               6.0.6001.18000     C:\Windows\system32
+75680000 Secur32.dll              6.0.6001.18215     C:\Windows\system32
+75750000 PSAPI.DLL                6.0.6000.16386     C:\Windows\system32
+757f0000 RPCRT4.dll               6.0.6001.18051     C:\Windows\system32
+758f0000 comdlg32.dll             6.0.6001.18000     C:\Windows\system32
+75970000 GDI32.dll                6.0.6001.18159     C:\Windows\system32
+759c0000 ole32.dll                6.0.6001.18000     C:\Windows\system32
+75b10000 USP10.dll                1.626.6001.18000   C:\Windows\system32
+75b90000 oleaut32.dll             6.0.6001.18000     C:\Windows\system32
+75d60000 shell32.dll              6.0.6001.18167     C:\Windows\system32
+76960000 CLBCatQ.DLL              2001.12.6931.18000 C:\Windows\system32
+769f0000 kernel32.dll             6.0.6001.18215     C:\Windows\system32
+76ad0000 ADVAPI32.dll             6.0.6001.18000     C:\Windows\system32
+76ba0000 msvcrt.dll               7.0.6001.18000     C:\Windows\system32
+76e40000 setupapi.DLL             6.0.6001.18000     C:\Windows\system32
+76fd0000 MSCTF.dll                6.0.6001.18000     C:\Windows\system32
+770a0000 USER32.dll               6.0.6001.18000     C:\Windows\system32
+77140000 ntdll.dll                6.0.6001.18000     C:\Windows\system32
+77270000 LPK.DLL                  6.0.6001.18000     C:\Windows\system32
+77280000 NSI.dll                  6.0.6001.18000     C:\Windows\system32
+772a0000 SHLWAPI.dll              6.0.6001.18000     C:\Windows\system32
+77300000 WS2_32.dll               6.0.6001.18000     C:\Windows\system32
+77330000 WLDAP32.dll              6.0.6001.18000     C:\Windows\system32
+77380000 IMM32.DLL                6.0.6001.18000     C:\Windows\system32
+
+processes:
+0000 Idle                         0
+0004 System                       0
+01d4 smss.exe                     0 normal       C:\Windows\system32
+0218 csrss.exe                    0 normal       C:\Windows\system32
+0244 csrss.exe                    1 normal       C:\Windows\system32
+024c wininit.exe                  0 high         C:\Windows\system32
+0274 winlogon.exe                 1 high         C:\Windows\system32
+029c services.exe                 0 normal       C:\Windows\system32
+02bc lsass.exe                    0 normal       C:\Windows\system32
+02c4 lsm.exe                      0 normal       C:\Windows\system32
+0348 svchost.exe                  0 normal       C:\Windows\system32
+0370 PresentationFontCache.exe    0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03a0 svchost.exe                  0 normal       C:\Windows\system32
+03d0 svchost.exe                  0 normal       C:\Windows\System32
+0434 svchost.exe                  0 normal       C:\Windows\System32
+044c svchost.exe                  0 normal       C:\Windows\System32
+045c svchost.exe                  0 normal       C:\Windows\system32
+04ec audiodg.exe                  0
+050c svchost.exe                  0 normal       C:\Windows\system32
+0534 SLsvc.exe                    0 normal       C:\Windows\system32
+056c svchost.exe                  0 normal       C:\Windows\system32
+0614 svchost.exe                  0 normal       C:\Windows\system32
+06d4 ccSvcHst.exe                 0 normal       C:\Program Files\Common Files\Symantec Shared
+07a8 spoolsv.exe                  0 normal       C:\Windows\System32
+07c0 svchost.exe                  0 normal       C:\Windows\system32
+020c taskeng.exe                  0 below normal C:\Windows\system32
+063c svchost.exe                  0 normal       C:\Windows\system32
+068c AppleMobileDeviceService.exe 0 normal       C:\Program Files\Common Files\Apple\Mobile Device Support\bin
+04a8 mDNSResponder.exe            0 normal       C:\Program Files\Bonjour
+07c8 DefWatch.exe                 0 normal       C:\Program Files\Symantec AntiVirus
+0644 hamachi.exe                  0 normal       C:\Program Files\Hamachi
+0774 inetinfo.exe                 0 normal       C:\Windows\system32\inetsrv
+0810 sqlservr.exe                 0 normal       c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn
+0824 sqlservr.exe                 0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+084c NMSAccessU.exe               0 normal       C:\Program Files\CDBurnerXP
+0864 ORACLE.EXE                   0 normal       c:\oraclexe\app\oracle\product\10.2.0\server\bin
+08b4 tnslsnr.exe                  0 normal       C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+08d8 svchost.exe                  0 normal       C:\Windows\system32
+08fc ReportingServicesService.exe 0 normal       C:\Program Files\Microsoft SQL Server\MSRS10.SQLEXPRESS2008\Reporting Services\ReportServer\bin
+0a0c tcpsvcs.exe                  0 normal       C:\Windows\System32
+0a30 snmp.exe                     0 normal       C:\Windows\System32
+0a3c sqlwriter.exe                0 normal       c:\Program Files\Microsoft SQL Server\90\Shared
+0a54 svchost.exe                  0 normal       C:\Windows\system32
+0aa8 Rtvscan.exe                  0 normal       C:\Program Files\Symantec AntiVirus
+0b10 TosCoSrv.exe                 0 normal       C:\Program Files\Toshiba\Power Saver
+0b58 vmnat.exe                    0 normal       C:\Windows\system32
+0b6c svchost.exe                  0 normal       C:\Windows\system32
+0b7c svchost.exe                  0 normal       C:\Windows\System32
+0bac vmnetdhcp.exe                0 normal       C:\Windows\system32
+0c08 vmware-authd.exe             0 normal       C:\Program Files\VMware\VMware Workstation
+0f04 fdlauncher.exe               0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0f54 fdhost.exe                   0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+101c taskeng.exe                  1 normal       C:\Windows\system32
+10a8 Dwm.exe                      1 normal       C:\Windows\system32
+10d8 Explorer.EXE                 1 normal       C:\Windows
+1198 VPTray.exe                   1 below normal C:\Program Files\Symantec AntiVirus
+11a8 igfxpers.exe                 1 normal       C:\Windows\System32
+11c0 hkcmd.exe                    1 normal       C:\Windows\System32
+11d0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+11d8 ccApp.exe                    1 normal       C:\Program Files\Common Files\Symantec Shared
+11f8 traybar.exe                  1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+1204 TSVNCache.exe                1 normal       C:\Program Files\TortoiseSVN\bin
+1224 iTunesHelper.exe             1 normal       C:\Program Files\iTunes
+1244 TOSCDSPD.exe                 1 normal       C:\Program Files\Toshiba\TOSCDSPD
+1260 DocuAction.exe               1 normal       C:\Program Files\Plustek\Plustek SmartOffice PS252
+1268 hamachi.exe                  1 normal       C:\Program Files\Hamachi
+12a0 igfxsrvc.exe                 1 normal       C:\Windows\system32
+1628 CEC_MAIN.exe                 1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+17d8 iPodService.exe              0 normal       C:\Program Files\iPod\bin
+17e0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+1604 notepad++.exe                1 normal       C:\Program Files\Notepad++
+1318 XMLSpy.exe                   1 normal       C:\Program Files\Altova\XMLSpy2008
+1074 thunderbird.exe              1 normal       C:\Program Files\Mozilla Thunderbird
+049c chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1454 pidgin.exe                   1 normal       C:\Program Files\Pidgin
+1070 AcroTray.exe                 1 normal       C:\Program Files\Adobe\Acrobat 8.0\Acrobat
+17a0 FNPLicensingService.exe      0 normal       C:\Program Files\Common Files\Macrovision Shared\FLEXnet Publisher
+18a4 mobsync.exe                  1 normal       C:\Windows\System32
+16f0 mstsc.exe                    1 normal       C:\Windows\System32
+1a34 csrss.exe                    3 normal       C:\Windows\system32
+03b8 winlogon.exe                 3 high         C:\Windows\system32
+08e4 LogonUI.exe                  3 high         C:\Windows\system32
+1c44 rdpclip.exe                  1 normal       C:\Windows\system32
+1ad8 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1f14 wuauclt.exe                  1 normal       C:\Windows\system32
+1184 dexplore.exe                 1 normal       C:\Program Files\Common Files\Microsoft Shared\Help 8
+18f0 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1500 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+149c bds.exe                      1 normal       C:\Program Files\CodeGear\RAD Studio\5.0\bin
+0dc0 Image2XML.exe                1 normal       C:\Dark\pascal\Image2XML\src\i2xui
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - TOSHIBA MK2546GSX ATA Device
++ Display adapters
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GSA-T40F ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) ICH8M SATA AHCI Controller - 2829 (driver 6.8.0.3002)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
+  - Ricoh Memory Stick Controller (driver 6.0.1.10)
+  - Ricoh SD/MMC Host Controller (driver 6.0.2.3)
+  - Ricoh xD-Picture Card Controller (driver 6.0.1.12)
++ IEEE 1394 Bus host controllers
+  - RICOH OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.238.1217)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Mice and other pointing devices
+  - PS/2 Compatible Mouse
++ Modems
+  - TOSHIBA Software Modem
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Hamachi Network Interface (driver 6.0.2.2)
+  - Intel(R) PRO/Wireless 3945ABG Network Connection (driver 11.5.0.32)
+  - Realtek RTL8102E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.201.1228.2007)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.2.0)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ System devices
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - Intel(R) ICH8M-E LPC Interface Controller - 2815
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA Firmware Linkage Driver (driver 1.0.0.3)
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.0)
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 00127918
+ebx = 00128e02
+ecx = 771a861f
+edx = 00306c28
+esi = 0438b3a0
+edi = 00565dbc
+eip = 76a342eb
+esp = 00127918
+ebp = 00127968
+
+stack dump:
+00127918  05 00 00 c0 00 00 00 00 - 00 00 00 00 eb 42 a3 76  .............B.v
+00127928  00 00 00 00 00 00 00 00 - a0 7e 12 00 a0 7a 12 00  .........~...z..
+00127938  10 20 02 00 00 00 00 00 - ff ff ff ff 60 79 12 00  ............`y..
+00127948  5e d6 0f 77 00 00 00 00 - a0 7e 12 00 a0 7a 12 00  ^..w.....~...z..
+00127958  10 20 02 00 00 00 00 00 - 78 79 12 00 c1 9c 40 00  ........xy....@.
+00127968  a4 fe 12 00 c9 c0 40 00 - 05 00 00 c0 00 00 00 00  ......@.........
+00127978  00 00 00 00 00 00 00 00 - dc fe 12 00 e8 54 40 00  .............T@.
+00127988  a4 fe 12 00 10 b4 38 04 - 18 12 86 02 01 12 86 02  ......8.........
+00127998  68 b9 88 02 00 00 00 00 - 0f 54 55 6e 64 6f 52 65  h........TUndoRe
+001279a8  67 69 6f 6e 49 74 65 6d - 00 00 00 00 00 00 00 00  gionItem........
+001279b8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+001279c8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+001279d8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+001279e8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+001279f8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00127a08  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00127a18  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00127a28  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00127a38  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00127a48  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+0047dc8a        call    -$3c7 ($47d8c8)        ; Graphics.TBrush.GetHandle
+0047dc8f        push    eax
+0047dc90        push    esi
+0047dc91        mov     eax, [ebx+4]
+0047dc94        push    eax
+0047dc95      > call    -$74cce ($408fcc)      ; Windows.FillRect
+0047dc9a 2479   mov     eax, ebx
+0047dc9c        mov     edx, [eax]
+0047dc9e        call    dword ptr [edx+$c]
+0047dca1 2480   pop     esi
+0047dca2        pop     ebx
+[...]
+
+date/time         : 2009-08-26, 16:04:53, 419ms
+computer name     : NADIR
+wts client name   : ZIONXP
+user name         : Administrator <admin>
+registered owner  : Ricardo Vega
+operating system  : Windows Vista Service Pack 1 build 6001
+system language   : English
+system up time    : 1 day 23 hours
+program up time   : 40 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T5550 @ 1.83GHz
+physical memory   : 1390/3061 MB (free/total)
+free disk space   : (C:) 20.20 GB
+display mode      : 1280x1024, 16 bit
+process id        : $d70
+allocated memory  : 49.83 MB
+command line      : "C:\Dark\pascal\Image2XML\src\i2xui\Image2XML.exe" -x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'
+executable        : Image2XML.exe
+exec. date/time   : 2009-08-26 16:04
+version           : 0.9.7.5
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $ed513e72, $ffb40118, $ffb40118
+exception number  : 1
+exception class   : EListError
+exception message : List index out of bounds (-1).
+
+main thread ($16d0):
+0046e7cd +019 Image2XML.exe Classes    2992  +2 TList.Get
+00477937 +00b Image2XML.exe Contnrs     521  +0 TOrderedList.PeekItem
+00477948 +008 Image2XML.exe Contnrs     526  +1 TOrderedList.PopItem
+0047789a +002 Image2XML.exe Contnrs     493  +0 TOrderedList.Pop
+00565ff1 +005 Image2XML.exe uI2XUndo    180  +1 TUndoStack.Pop
+00565fc6 +022 Image2XML.exe uI2XUndo    168  +4 TUndoStack.Destroy
+00404cdc +008 Image2XML.exe System     8832  +1 TObject.Free
+00460880 +008 Image2XML.exe SysUtils  16957  +2 FreeAndNil
+005667da +01e Image2XML.exe uI2XUndo    493  +0 Finalization
+00405891 +039 Image2XML.exe System    11256 +20 FinalizeUnits
+00453bcc +054 Image2XML.exe madExcept           InterceptFinalizeUnits
+00405b42 +056 Image2XML.exe System    11926 +44 @Halt0
+0059e74c +4cc Image2XML.exe Image2XML   126 +62 initialization
+76a3490f +010 kernel32.dll                      BaseThreadInitThunk
+
+thread $96c:
+77198ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76a35234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1774 at:
+75832591 +00 RPCRT4.dll
+
+thread $1ef4:
+771983b2 +0a ntdll.dll               NtDelayExecution
+76a3c34a +4c kernel32.dll            SleepEx
+769f1c75 +0a kernel32.dll            Sleep
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $1774 at:
+759f2beb +00 ole32.dll
+
+thread $d84:
+77198ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76a35234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+76a3490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $96c at:
+75832591 +00 RPCRT4.dll
+
+modules:
+00140000 FastMM_FullDebugMode.dll 1.44.0.4           C:\Dark\pascal\Image2XML\src\i2xui
+00400000 Image2XML.exe            0.9.7.5            C:\Dark\pascal\Image2XML\src\i2xui
+06fb0000 i2ximg_freeimage.dll     1.0.0.143          C:\Dark\pascal\Image2XML\src\i2ximg_freeimage
+07510000 FreeImage.dll            3.10.0.0           C:\Dark\pascal\Image2XML\src\i2xui
+07870000 i2ximg_g32.dll           1.0.0.180          C:\Dark\pascal\Image2XML\src\i2ximg_g32
+07ac0000 i2ximg_mcm.dll           1.0.0.151          C:\Dark\pascal\Image2XML\src\i2ximg_mcm
+08170000 i2xocr_gocr.dll          1.0.0.124          C:\Dark\pascal\Image2XML\src\i2xocr_gocr
+087f0000 i2xocr_tocr.dll          1.0.0.313          C:\Dark\pascal\Image2XML\src\i2xocr_tocr
+08d40000 TOCRRdll.dll             1.0.4.101          C:\Dark\pascal\Image2XML\src\i2xui
+10000000 KeyLib32.dll             4.5.0.2            C:\Windows\system32
+66c90000 hhctrl.ocx               6.0.6001.18000     C:\Windows\system32
+67590000 wiadss.dll               6.0.6001.18000     C:\Windows\system32
+6c810000 sti.dll                  6.0.6000.16386     C:\Windows\System32
+6ec80000 wiatrace.dll             6.0.6000.16386     C:\Windows\system32
+6eef0000 CFGMGR32.dll             6.0.6001.18000     C:\Windows\System32
+6f440000 WINSPOOL.DRV             6.0.6001.18000     C:\Windows\system32
+71050000 comctl32.dll             5.82.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05
+71440000 wsock32.dll              6.0.6001.18000     C:\Windows\system32
+72ee0000 DWMAPI.DLL               6.0.6001.18000     C:\Windows\system32
+73090000 gdiplus.dll              5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+74160000 uxtheme.dll              6.0.6001.18000     C:\Windows\system32
+74350000 wtsapi32.dll             6.0.6001.18000     C:\Windows\system32
+744a0000 msimg32.dll              6.0.6000.16386     C:\Windows\system32
+74730000 comctl32.dll             6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+748d0000 NTMARTA.DLL              6.0.6001.18000     C:\Windows\system32
+74950000 rsaenh.dll               6.0.6001.18000     C:\Windows\system32
+749d0000 OLEACC.dll               4.2.5406.0         C:\Windows\system32
+74d90000 version.dll              6.0.6001.18000     C:\Windows\system32
+750b0000 mpr.dll                  6.0.6001.18000     C:\Windows\system32
+75270000 SAMLIB.dll               6.0.6001.18000     C:\Windows\system32
+75650000 WINSTA.dll               6.0.6001.18000     C:\Windows\system32
+75680000 Secur32.dll              6.0.6001.18215     C:\Windows\system32
+75750000 PSAPI.DLL                6.0.6000.16386     C:\Windows\system32
+757f0000 RPCRT4.dll               6.0.6001.18051     C:\Windows\system32
+758f0000 comdlg32.dll             6.0.6001.18000     C:\Windows\system32
+75970000 GDI32.dll                6.0.6001.18159     C:\Windows\system32
+759c0000 ole32.dll                6.0.6001.18000     C:\Windows\system32
+75b10000 USP10.dll                1.626.6001.18000   C:\Windows\system32
+75b90000 oleaut32.dll             6.0.6001.18000     C:\Windows\system32
+75d60000 shell32.dll              6.0.6001.18167     C:\Windows\system32
+76960000 CLBCatQ.DLL              2001.12.6931.18000 C:\Windows\system32
+769f0000 kernel32.dll             6.0.6001.18215     C:\Windows\system32
+76ad0000 ADVAPI32.dll             6.0.6001.18000     C:\Windows\system32
+76ba0000 msvcrt.dll               7.0.6001.18000     C:\Windows\system32
+76e40000 setupapi.DLL             6.0.6001.18000     C:\Windows\system32
+76fd0000 MSCTF.dll                6.0.6001.18000     C:\Windows\system32
+770a0000 USER32.dll               6.0.6001.18000     C:\Windows\system32
+77140000 ntdll.dll                6.0.6001.18000     C:\Windows\system32
+77270000 LPK.DLL                  6.0.6001.18000     C:\Windows\system32
+77280000 NSI.dll                  6.0.6001.18000     C:\Windows\system32
+772a0000 SHLWAPI.dll              6.0.6001.18000     C:\Windows\system32
+77300000 WS2_32.dll               6.0.6001.18000     C:\Windows\system32
+77330000 WLDAP32.dll              6.0.6001.18000     C:\Windows\system32
+77380000 IMM32.DLL                6.0.6001.18000     C:\Windows\system32
+
+processes:
+0000 Idle                         0
+0004 System                       0
+01d4 smss.exe                     0 normal       C:\Windows\system32
+0218 csrss.exe                    0 normal       C:\Windows\system32
+0244 csrss.exe                    1 normal       C:\Windows\system32
+024c wininit.exe                  0 high         C:\Windows\system32
+0274 winlogon.exe                 1 high         C:\Windows\system32
+029c services.exe                 0 normal       C:\Windows\system32
+02bc lsass.exe                    0 normal       C:\Windows\system32
+02c4 lsm.exe                      0 normal       C:\Windows\system32
+0348 svchost.exe                  0 normal       C:\Windows\system32
+0370 PresentationFontCache.exe    0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03a0 svchost.exe                  0 normal       C:\Windows\system32
+03d0 svchost.exe                  0 normal       C:\Windows\System32
+0434 svchost.exe                  0 normal       C:\Windows\System32
+044c svchost.exe                  0 normal       C:\Windows\System32
+045c svchost.exe                  0 normal       C:\Windows\system32
+04ec audiodg.exe                  0
+050c svchost.exe                  0 normal       C:\Windows\system32
+0534 SLsvc.exe                    0 normal       C:\Windows\system32
+056c svchost.exe                  0 normal       C:\Windows\system32
+0614 svchost.exe                  0 normal       C:\Windows\system32
+06d4 ccSvcHst.exe                 0 normal       C:\Program Files\Common Files\Symantec Shared
+07a8 spoolsv.exe                  0 normal       C:\Windows\System32
+07c0 svchost.exe                  0 normal       C:\Windows\system32
+020c taskeng.exe                  0 below normal C:\Windows\system32
+063c svchost.exe                  0 normal       C:\Windows\system32
+068c AppleMobileDeviceService.exe 0 normal       C:\Program Files\Common Files\Apple\Mobile Device Support\bin
+04a8 mDNSResponder.exe            0 normal       C:\Program Files\Bonjour
+07c8 DefWatch.exe                 0 normal       C:\Program Files\Symantec AntiVirus
+0644 hamachi.exe                  0 normal       C:\Program Files\Hamachi
+0774 inetinfo.exe                 0 normal       C:\Windows\system32\inetsrv
+0810 sqlservr.exe                 0 normal       c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn
+0824 sqlservr.exe                 0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+084c NMSAccessU.exe               0 normal       C:\Program Files\CDBurnerXP
+0864 ORACLE.EXE                   0 normal       c:\oraclexe\app\oracle\product\10.2.0\server\bin
+08b4 tnslsnr.exe                  0 normal       C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+08d8 svchost.exe                  0 normal       C:\Windows\system32
+08fc ReportingServicesService.exe 0 normal       C:\Program Files\Microsoft SQL Server\MSRS10.SQLEXPRESS2008\Reporting Services\ReportServer\bin
+0a0c tcpsvcs.exe                  0 normal       C:\Windows\System32
+0a30 snmp.exe                     0 normal       C:\Windows\System32
+0a3c sqlwriter.exe                0 normal       c:\Program Files\Microsoft SQL Server\90\Shared
+0a54 svchost.exe                  0 normal       C:\Windows\system32
+0aa8 Rtvscan.exe                  0 normal       C:\Program Files\Symantec AntiVirus
+0b10 TosCoSrv.exe                 0 normal       C:\Program Files\Toshiba\Power Saver
+0b58 vmnat.exe                    0 normal       C:\Windows\system32
+0b6c svchost.exe                  0 normal       C:\Windows\system32
+0b7c svchost.exe                  0 normal       C:\Windows\System32
+0bac vmnetdhcp.exe                0 normal       C:\Windows\system32
+0c08 vmware-authd.exe             0 normal       C:\Program Files\VMware\VMware Workstation
+0f04 fdlauncher.exe               0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0f54 fdhost.exe                   0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+101c taskeng.exe                  1 normal       C:\Windows\system32
+10a8 Dwm.exe                      1 normal       C:\Windows\system32
+10d8 Explorer.EXE                 1 normal       C:\Windows
+1198 VPTray.exe                   1 below normal C:\Program Files\Symantec AntiVirus
+11a8 igfxpers.exe                 1 normal       C:\Windows\System32
+11c0 hkcmd.exe                    1 normal       C:\Windows\System32
+11d0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+11d8 ccApp.exe                    1 normal       C:\Program Files\Common Files\Symantec Shared
+11f8 traybar.exe                  1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+1204 TSVNCache.exe                1 normal       C:\Program Files\TortoiseSVN\bin
+1224 iTunesHelper.exe             1 normal       C:\Program Files\iTunes
+1244 TOSCDSPD.exe                 1 normal       C:\Program Files\Toshiba\TOSCDSPD
+1260 DocuAction.exe               1 normal       C:\Program Files\Plustek\Plustek SmartOffice PS252
+1268 hamachi.exe                  1 normal       C:\Program Files\Hamachi
+12a0 igfxsrvc.exe                 1 normal       C:\Windows\system32
+1628 CEC_MAIN.exe                 1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+17d8 iPodService.exe              0 normal       C:\Program Files\iPod\bin
+17e0 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+1604 notepad++.exe                1 normal       C:\Program Files\Notepad++
+1318 XMLSpy.exe                   1 normal       C:\Program Files\Altova\XMLSpy2008
+1074 thunderbird.exe              1 normal       C:\Program Files\Mozilla Thunderbird
+049c chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1454 pidgin.exe                   1 normal       C:\Program Files\Pidgin
+1070 AcroTray.exe                 1 normal       C:\Program Files\Adobe\Acrobat 8.0\Acrobat
+17a0 FNPLicensingService.exe      0 normal       C:\Program Files\Common Files\Macrovision Shared\FLEXnet Publisher
+18a4 mobsync.exe                  1 normal       C:\Windows\System32
+16f0 mstsc.exe                    1 normal       C:\Windows\System32
+1a34 csrss.exe                    3 normal       C:\Windows\system32
+03b8 winlogon.exe                 3 high         C:\Windows\system32
+08e4 LogonUI.exe                  3 high         C:\Windows\system32
+1c44 rdpclip.exe                  1 normal       C:\Windows\system32
+1ad8 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1f14 wuauclt.exe                  1 normal       C:\Windows\system32
+1184 dexplore.exe                 1 normal       C:\Program Files\Common Files\Microsoft Shared\Help 8
+18f0 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1500 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+149c bds.exe                      1 normal       C:\Program Files\CodeGear\RAD Studio\5.0\bin
+1b74 taskeng.exe                  0 below normal C:\Windows\system32
+0d70 Image2XML.exe                1 normal       C:\Dark\pascal\Image2XML\src\i2xui
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - TOSHIBA MK2546GSX ATA Device
++ Display adapters
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GSA-T40F ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) ICH8M SATA AHCI Controller - 2829 (driver 6.8.0.3002)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
+  - Ricoh Memory Stick Controller (driver 6.0.1.10)
+  - Ricoh SD/MMC Host Controller (driver 6.0.2.3)
+  - Ricoh xD-Picture Card Controller (driver 6.0.1.12)
++ IEEE 1394 Bus host controllers
+  - RICOH OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.238.1217)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Mice and other pointing devices
+  - PS/2 Compatible Mouse
++ Modems
+  - TOSHIBA Software Modem
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Hamachi Network Interface (driver 6.0.2.2)
+  - Intel(R) PRO/Wireless 3945ABG Network Connection (driver 11.5.0.32)
+  - Realtek RTL8102E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.201.1228.2007)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.2.0)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ System devices
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - Intel(R) ICH8M-E LPC Interface Controller - 2815
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA Firmware Linkage Driver (driver 1.0.0.3)
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.0)
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 029728f0
+ebx = 0438b368
+ecx = 00000000
+edx = 0046e7d2
+esi = ffffffff
+edi = 0438b360
+eip = 0046e7d2
+esp = 0012fe24
+ebp = 0012fe80
+
+stack dump:
+0012fe24  d2 e7 46 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..F.............
+0012fe34  38 fe 12 00 d2 e7 46 00 - f0 28 97 02 68 b3 38 04  8.....F..(..h.8.
+0012fe44  ff ff ff ff 60 b3 38 04 - 80 fe 12 00 54 fe 12 00  ....`.8.....T...
+0012fe54  ff ff ff ff 00 00 00 00 - ff ff ff ff e8 9b 46 00  ..............F.
+0012fe64  22 e7 46 00 dc fe 12 00 - e8 54 40 00 80 fe 12 00  ".F......T@.....
+0012fe74  ff ff ff ff e0 fc 99 02 - 00 00 00 00 e8 fe 12 00  ................
+0012fe84  d2 e7 46 00 18 12 97 02 - 18 12 97 02 3c 79 47 00  ..F.........<yG.
+0012fe94  4b 79 47 00 18 12 97 02 - 18 12 97 02 9d 78 47 00  KyG..........xG.
+0012fea4  f6 5f 56 00 01 12 97 02 - cb 5f 56 00 4c be 59 00  ._V......_V.L.Y.
+0012feb4  a0 fb 97 02 01 fb 97 02 - df 4c 40 00 85 08 46 00  .........L@...F.
+0012fec4  bf 64 56 00 bc 67 56 00 - c0 00 00 00 df 4c 40 00  .dV..gV......L@.
+0012fed4  85 08 46 00 df 67 56 00 - f0 fe 12 00 e8 54 40 00  ..F..gV......T@.
+0012fee4  e8 fe 12 00 08 ff 12 00 - 93 58 40 00 7c ff 12 00  .........X@.|...
+0012fef4  7f 56 40 00 08 ff 12 00 - 48 80 5a 00 00 9c 45 00  .V@.....H.Z...E.
+0012ff04  c8 a7 5a 00 88 ff 12 00 - d2 3b 45 00 47 5b 40 00  ..Z......;E.G[@.
+0012ff14  88 ff 12 00 00 00 00 00 - 00 00 00 00 00 e0 fd 7f  ................
+0012ff24  51 e7 59 00 00 00 00 00 - 00 00 00 00 00 00 00 00  Q.Y.............
+0012ff34  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012ff44  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012ff54  00 00 00 00 28 f7 97 02 - 00 00 00 00 00 00 00 00  ....(...........
+
+disassembling:
+[...]
+0046e7be        cmp     esi, [ebx+8]
+0046e7c1        jl      loc_46e7d2
+0046e7c3 2992   mov     edx, [$5a7c04]
+0046e7c9        mov     ecx, esi
+0046e7cb        mov     eax, [ebx]
+0046e7cd      > call    -$e2 ($46e6f0)         ; Classes.TList.Error
+0046e7d2 2993   mov     eax, [ebx+4]
+0046e7d5        mov     eax, [eax+esi*4]
+0046e7d8 2994   pop     esi
+0046e7d9        pop     ebx
+0046e7da        ret
+
+date/time         : 2009-09-07, 22:20:49, 201ms
+computer name     : NADIR
+wts client name   : ZIONXP
+user name         : Administrator <admin>
+registered owner  : Ricardo Vega
+operating system  : Windows Vista Service Pack 1 build 6001
+system language   : English
+system up time    : 10 hours 22 minutes
+program up time   : 54 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T5550 @ 1.83GHz
+physical memory   : 1075/3061 MB (free/total)
+free disk space   : (C:) 56.41 GB
+display mode      : 1280x1024, 16 bit
+process id        : $13fc
+allocated memory  : 99.82 MB
+command line      : "C:\Dark\pascal\Image2XML\src\i2xui\Image2XML.exe" -x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'
+executable        : Image2XML.exe
+exec. date/time   : 2009-09-07 22:19
+version           : 0.9.7.8
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $930dd7c2, $25695e6a, $9f133632
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 00404CDA in module 'Image2XML.exe'. Read of address 4D204F4E.
+
+main thread ($1704):
+00404cda +006 Image2XML.exe System     8832   +1 TObject.Free
+0040553a +02a Image2XML.exe System    10617  +15 @HandleFinallyInternal
+77889b66 +081 ntdll.dll                          RtlRaiseStatus
+7786d371 +0f4 ntdll.dll                          RtlUnwind
+00405286 +0d2 Image2XML.exe System    10033  +83 @HandleAnyException
+77889b66 +081 ntdll.dll                          RtlRaiseStatus
+778899f2 +00a ntdll.dll                          KiUserExceptionDispatcher
+004054c2 +05a Image2XML.exe System    10550  +38 @HandleFinally
+77889b66 +081 ntdll.dll                          RtlRaiseStatus
+7786d371 +0f4 ntdll.dll                          RtlUnwind
+00405286 +0d2 Image2XML.exe System    10033  +83 @HandleAnyException
+77889b66 +081 ntdll.dll                          RtlRaiseStatus
+778899f2 +00a ntdll.dll                          KiUserExceptionDispatcher
+0058cd80 +020 Image2XML.exe Ppp_func    217   +1 DisplayError
+0058c2a3 +0ff Image2XML.exe ONLINE       70  +26 TfrmOnline.OKBtnClick
+00490254 +00c Image2XML.exe StdCtrls   3782   +1 TButton.CNCommand
+004a976f +2bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004ad676 +4fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+00490000 +06c Image2XML.exe StdCtrls   3669  +13 TButtonControl.WndProc
+004a93fc +024 Image2XML.exe Controls   5021   +5 TControl.Perform
+004ad7c7 +023 Image2XML.exe Controls   7320   +6 DoControlMsg
+004ae193 +00b Image2XML.exe Controls   7579   +1 TWinControl.WMCommand
+004c1988 +02c Image2XML.exe Forms      4941   +3 TCustomForm.WMCommand
+004a976f +2bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004ad676 +4fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004bec39 +531 Image2XML.exe Forms      3507 +131 TCustomForm.WndProc
+004acda0 +02c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fbc +014 Image2XML.exe Classes   11583   +8 StdWndProc
+76140af5 +044 USER32.dll                         SendMessageW
+7614b9fc +016 USER32.dll                         CallWindowProcA
+004ad773 +0d7 Image2XML.exe Controls   7301  +23 TWinControl.DefaultHandler
+004aa094 +010 Image2XML.exe Controls   5360   +1 TControl.WMLButtonUp
+004a976f +2bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004ad676 +4fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+00490000 +06c Image2XML.exe StdCtrls   3669  +13 TButtonControl.WndProc
+004acda0 +02c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+00476fbc +014 Image2XML.exe Classes   11583   +8 StdWndProc
+76135a27 +00a USER32.dll                         DispatchMessageA
+004c673c +0fc Image2XML.exe Forms      8015  +23 TApplication.ProcessMessage
+004c6776 +00a Image2XML.exe Forms      8034   +1 TApplication.HandleMessage
+004c69cc +0cc Image2XML.exe Forms      8125  +23 TApplication.Run
+005a0747 +4c7 Image2XML.exe Image2XML   130  +62 initialization
+771c490f +010 kernel32.dll                       BaseThreadInitThunk
+
+thread $4dc (TmcmTWAINThread):
+76140ddc +0a USER32.dll                             WaitMessage
+00578704 +1c Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Execute
+004546bf +2b Image2XML.exe madExcept                HookedTThreadExecute
+00475884 +34 Image2XML.exe Classes         9877  +7 ThreadProc
+00405c28 +28 Image2XML.exe System         12110 +33 ThreadWrapper
+004545a1 +0d Image2XML.exe madExcept                CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept                ThreadExceptFrame
+771c490f +10 kernel32.dll                           BaseThreadInitThunk
+>> created by main thread ($1704) at:
+00578333 +53 Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Create
+
+thread $ae8:
+77888ce2 +0a ntdll.dll               NtRemoveIoCompletion
+771c5234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+771c490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $5e0 at:
+77712591 +00 RPCRT4.dll
+
+thread $ca4:
+778883b2 +0a ntdll.dll               NtDelayExecution
+771cc34a +4c kernel32.dll            SleepEx
+77181c75 +0a kernel32.dll            Sleep
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+771c490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $5e0 at:
+76e52beb +00 ole32.dll
+
+thread $176c:
+77888ce2 +0a ntdll.dll               NtRemoveIoCompletion
+771c5234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+771c490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by thread $ae8 at:
+77712591 +00 RPCRT4.dll
+
+thread $868:
+778893e2 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+771c490f +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1240:
+77889242 +0a ntdll.dll     NtWaitForMultipleObjects
+771c490f +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1634: <priority:1>
+77888ce2 +0a ntdll.dll               NtRemoveIoCompletion
+004545a1 +0d Image2XML.exe madExcept CallThreadProcSafe
+0045460b +37 Image2XML.exe madExcept ThreadExceptFrame
+771c490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by main thread ($1704) at:
+755079ff +00 mswsock.dll
+
+modules:
+002b0000 FastMM_FullDebugMode.dll 1.44.0.4           C:\Dark\pascal\Image2XML\src\i2xui
+00400000 Image2XML.exe            0.9.7.8            C:\Dark\pascal\Image2XML\src\i2xui
+01030000 KeyLib32.dll             4.5.0.2            C:\Windows\system32
+07340000 i2ximg_freeimage.dll     1.0.0.139          C:\Dark\pascal\Image2XML\src\i2ximg_freeimage
+078a0000 FreeImage.dll            3.10.0.0           C:\Dark\pascal\Image2XML\src\i2xui
+07ac0000 TOCRRdll.dll             1.0.4.101          C:\Dark\pascal\Image2XML\src\i2xui
+07cc0000 i2ximg_g32.dll           1.0.0.176          C:\Dark\pascal\Image2XML\src\i2ximg_g32
+07f10000 i2ximg_mcm.dll           1.0.0.147          C:\Dark\pascal\Image2XML\src\i2ximg_mcm
+085c0000 i2xocr_gocr.dll          1.0.0.120          C:\Dark\pascal\Image2XML\src\i2xocr_gocr
+08c30000 i2xocr_tocr.dll          1.0.0.306          C:\Dark\pascal\Image2XML\src\i2xocr_tocr
+10000000 SKCA32.dll               4.5.0.2            C:\Windows\system32
+16080000 mdnsNSP.dll              1.0.6.2            C:\Program Files\Bonjour
+671b0000 hhctrl.ocx               6.0.6001.18000     C:\Windows\system32
+685b0000 sti.dll                  6.0.6000.16386     C:\Windows\System32
+6f220000 wiatrace.dll             6.0.6000.16386     C:\Windows\system32
+6f3a0000 sensapi.dll              6.0.6000.16386     C:\Windows\system32
+6f4d0000 rasadhlp.dll             6.0.6000.16386     C:\Windows\system32
+6f500000 winrnr.dll               6.0.6000.16386     C:\Windows\System32
+6f510000 pnrpnsp.dll              6.0.6001.18000     C:\Windows\system32
+6f590000 napinsp.dll              6.0.6001.18000     C:\Windows\system32
+6f610000 CFGMGR32.dll             6.0.6001.18000     C:\Windows\System32
+6fb20000 WINSPOOL.DRV             6.0.6001.18000     C:\Windows\system32
+704e0000 comctl32.dll             5.82.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05
+71bc0000 wsock32.dll              6.0.6001.18000     C:\Windows\system32
+738d0000 DWMAPI.DLL               6.0.6001.18000     C:\Windows\system32
+73a30000 OLEACC.dll               4.2.5406.0         C:\Windows\system32
+73a70000 WINMM.dll                6.0.6001.18000     C:\Windows\system32
+73ab0000 TAPI32.dll               6.0.6000.16386     C:\Windows\system32
+73bf0000 gdiplus.dll              5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+73da0000 NLAapi.dll               6.0.6001.18000     C:\Windows\system32
+73db0000 RASAPI32.dll             6.0.6001.18000     C:\Windows\system32
+73e00000 wiadss.dll               6.0.6001.18000     C:\Windows\system32
+73ef0000 rasman.dll               6.0.6001.18000     C:\Windows\system32
+74bf0000 rtutils.dll              6.0.6000.16386     C:\Windows\system32
+74c60000 wtsapi32.dll             6.0.6001.18000     C:\Windows\system32
+74c80000 uxtheme.dll              6.0.6001.18000     C:\Windows\system32
+74da0000 comctl32.dll             6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+75160000 wshtcpip.dll             6.0.6001.18000     C:\Windows\System32
+75170000 msimg32.dll              6.0.6000.16386     C:\Windows\system32
+751c0000 version.dll              6.0.6001.18000     C:\Windows\system32
+75200000 NTMARTA.DLL              6.0.6001.18000     C:\Windows\system32
+75280000 rsaenh.dll               6.0.6001.18000     C:\Windows\system32
+752f0000 schannel.dll             6.0.6001.18175     C:\Windows\system32
+75500000 mswsock.dll              6.0.6001.18000     C:\Windows\system32
+75560000 wship6.dll               6.0.6001.18000     C:\Windows\System32
+75610000 credssp.dll              6.0.6001.18000     C:\Windows\system32
+756c0000 dhcpcsvc6.DLL            6.0.6001.18000     C:\Windows\system32
+756f0000 dhcpcsvc.DLL             6.0.6001.18000     C:\Windows\system32
+757b0000 CRYPT32.dll              6.0.6001.18000     C:\Windows\system32
+758b0000 mpr.dll                  6.0.6001.18000     C:\Windows\system32
+758d0000 WINNSI.DLL               6.0.6001.18000     C:\Windows\system32
+758e0000 IPHLPAPI.DLL             6.0.6001.18000     C:\Windows\system32
+75940000 MSASN1.dll               6.0.6000.16386     C:\Windows\system32
+75960000 SAMLIB.dll               6.0.6001.18000     C:\Windows\system32
+75980000 DNSAPI.dll               6.0.6001.18000     C:\Windows\system32
+75a70000 NETAPI32.dll             6.0.6001.18157     C:\Windows\system32
+75d40000 WINSTA.dll               6.0.6001.18000     C:\Windows\system32
+75d70000 Secur32.dll              6.0.6001.18215     C:\Windows\system32
+75d90000 USERENV.dll              6.0.6001.18000     C:\Windows\system32
+75ed0000 PSAPI.DLL                6.0.6000.16386     C:\Windows\system32
+75ee0000 IMM32.DLL                6.0.6001.18000     C:\Windows\system32
+75f00000 setupapi.DLL             6.0.6001.18000     C:\Windows\system32
+76090000 LPK.DLL                  6.0.6001.18000     C:\Windows\system32
+760a0000 comdlg32.dll             6.0.6001.18000     C:\Windows\system32
+76120000 USER32.dll               6.0.6001.18000     C:\Windows\system32
+761c0000 GDI32.dll                6.0.6001.18159     C:\Windows\system32
+76210000 shell32.dll              6.0.6001.18167     C:\Windows\system32
+76d20000 MSCTF.dll                6.0.6001.18000     C:\Windows\system32
+76e20000 ole32.dll                6.0.6001.18000     C:\Windows\system32
+76f70000 USP10.dll                1.626.6001.18000   C:\Windows\system32
+76ff0000 urlmon.dll               8.0.6001.18702     C:\Windows\system32
+77130000 WLDAP32.dll              6.0.6001.18000     C:\Windows\system32
+77180000 kernel32.dll             6.0.6001.18215     C:\Windows\system32
+77260000 WinInet.DLL              8.0.6001.18702     C:\Windows\system32
+77350000 iertutil.dll             8.0.6001.18702     C:\Windows\system32
+77540000 Normaliz.dll             6.0.6000.16386     C:\Windows\system32
+77550000 msvcrt.dll               7.0.6001.18000     C:\Windows\system32
+77600000 ADVAPI32.dll             6.0.6001.18000     C:\Windows\system32
+776d0000 RPCRT4.dll               6.0.6001.18051     C:\Windows\system32
+777a0000 CLBCatQ.DLL              2001.12.6931.18000 C:\Windows\system32
+77830000 ntdll.dll                6.0.6001.18000     C:\Windows\system32
+77960000 WS2_32.dll               6.0.6001.18000     C:\Windows\system32
+77990000 NSI.dll                  6.0.6001.18000     C:\Windows\system32
+779a0000 oleaut32.dll             6.0.6001.18000     C:\Windows\system32
+77a30000 SHLWAPI.dll              6.0.6001.18000     C:\Windows\system32
+
+processes:
+0000 Idle                         0
+0004 System                       0
+01d4 smss.exe                     0 normal       C:\Windows\system32
+0218 csrss.exe                    0 normal       C:\Windows\system32
+024c wininit.exe                  0 high         C:\Windows\system32
+0290 services.exe                 0 normal       C:\Windows\system32
+02b4 lsass.exe                    0 normal       C:\Windows\system32
+02bc lsm.exe                      0 normal       C:\Windows\system32
+034c svchost.exe                  0 normal       C:\Windows\system32
+0374 PresentationFontCache.exe    0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03a0 svchost.exe                  0 normal       C:\Windows\system32
+03c4 svchost.exe                  0 normal       C:\Windows\System32
+042c svchost.exe                  0 normal       C:\Windows\System32
+044c svchost.exe                  0 normal       C:\Windows\System32
+0464 svchost.exe                  0 normal       C:\Windows\system32
+04ec audiodg.exe                  0
+0508 svchost.exe                  0 normal       C:\Windows\system32
+053c SLsvc.exe                    0 normal       C:\Windows\system32
+0550 svchost.exe                  0 normal       C:\Windows\system32
+0634 svchost.exe                  0 normal       C:\Windows\system32
+06c0 ccSvcHst.exe                 0 normal       C:\Program Files\Common Files\Symantec Shared
+07b0 spoolsv.exe                  0 normal       C:\Windows\System32
+07c8 svchost.exe                  0 normal       C:\Windows\system32
+0248 taskeng.exe                  0 below normal C:\Windows\system32
+06fc svchost.exe                  0 normal       C:\Windows\system32
+06a0 AppleMobileDeviceService.exe 0 normal       C:\Program Files\Common Files\Apple\Mobile Device Support\bin
+067c mDNSResponder.exe            0 normal       C:\Program Files\Bonjour
+05cc DefWatch.exe                 0 normal       C:\Program Files\Symantec AntiVirus
+03cc hamachi.exe                  0 normal       C:\Program Files\Hamachi
+0668 inetinfo.exe                 0 normal       C:\Windows\system32\inetsrv
+0608 sqlservr.exe                 0 normal       c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn
+0498 sqlservr.exe                 0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0818 NMSAccessU.exe               0 normal       C:\Program Files\CDBurnerXP
+0850 ORACLE.EXE                   0 normal       c:\oraclexe\app\oracle\product\10.2.0\server\bin
+0898 tnslsnr.exe                  0 normal       C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+08bc svchost.exe                  0 normal       C:\Windows\system32
+08c8 ReportingServicesService.exe 0 normal       C:\Program Files\Microsoft SQL Server\MSRS10.SQLEXPRESS2008\Reporting Services\ReportServer\bin
+0a1c tcpsvcs.exe                  0 normal       C:\Windows\System32
+0a28 snmp.exe                     0 normal       C:\Windows\System32
+0a3c sqlwriter.exe                0 normal       c:\Program Files\Microsoft SQL Server\90\Shared
+0a4c svchost.exe                  0 normal       C:\Windows\system32
+0a68 Rtvscan.exe                  0 normal       C:\Program Files\Symantec AntiVirus
+0ab8 TosCoSrv.exe                 0 normal       C:\Program Files\Toshiba\Power Saver
+0b2c vmnat.exe                    0 normal       C:\Windows\system32
+0b40 svchost.exe                  0 normal       C:\Windows\system32
+0b4c svchost.exe                  0 normal       C:\Windows\System32
+0b78 vmnetdhcp.exe                0 normal       C:\Windows\system32
+0b8c vmware-authd.exe             0 normal       C:\Program Files\VMware\VMware Workstation
+0dbc fdlauncher.exe               0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0aa8 fdhost.exe                   0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0eec csrss.exe                    2 normal       C:\Windows\system32
+0dd8 winlogon.exe                 2 high         C:\Windows\system32
+0f34 taskeng.exe                  2 normal       C:\Windows\system32
+1320 Dwm.exe                      2 normal       C:\Windows\system32
+133c Explorer.EXE                 2 normal       C:\Windows
+1434 GoogleDesktop.exe            2 normal       C:\Program Files\Google\Google Desktop Search
+143c ccApp.exe                    2 normal       C:\Program Files\Common Files\Symantec Shared
+1444 traybar.exe                  2 normal       C:\Program Files\Camera Assistant Software for Toshiba
+1450 iTunesHelper.exe             2 normal       C:\Program Files\iTunes
+1458 TOSCDSPD.exe                 2 normal       C:\Program Files\Toshiba\TOSCDSPD
+146c DocuAction.exe               2 normal       C:\Program Files\Plustek\Plustek SmartOffice PS252
+1474 hamachi.exe                  2 normal       C:\Program Files\Hamachi
+15cc CEC_MAIN.exe                 2 normal       C:\Program Files\Camera Assistant Software for Toshiba
+16b4 GoogleDesktop.exe            2 normal       C:\Program Files\Google\Google Desktop Search
+1764 iPodService.exe              0 normal       C:\Program Files\iPod\bin
+1380 thunderbird.exe              2 normal       C:\Program Files\Mozilla Thunderbird
+0ae4 firefox.exe                  2 normal       C:\Program Files\Mozilla Firefox
+0338 PLUS.exe                     2 normal       C:\SWKey
+16c4 hh.exe                       2 normal       C:\Windows
+154c notepad++.exe                2 normal       C:\Program Files\Notepad++
+01cc LFEdit.exe                   2 normal       C:\SWKey\PLUS
+0f4c taskmgr.exe                  2 high         C:\Windows\system32
+0a90 bds.exe                      2 normal       C:\Program Files\CodeGear\RAD Studio\5.0\bin
+1714 chrome.exe                   2 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1040 chrome.exe                   2 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+08d8 csrss.exe                    3 normal       C:\Windows\system32
+1234 winlogon.exe                 3 high         C:\Windows\system32
+12f0 LogonUI.exe                  3 high         C:\Windows\system32
+1590 rdpclip.exe                  2 normal       C:\Windows\system32
+10a0 wuauclt.exe                  2 normal       C:\Windows\system32
+0e40 chrome.exe                   2 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+17bc chrome.exe                   2 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+13fc Image2XML.exe                2 normal       C:\Dark\pascal\Image2XML\src\i2xui
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - TOSHIBA MK2546GSX ATA Device
++ Display adapters
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GSA-T40F ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) ICH8M SATA AHCI Controller - 2829 (driver 6.8.0.3002)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
+  - Ricoh Memory Stick Controller (driver 6.0.1.10)
+  - Ricoh SD/MMC Host Controller (driver 6.0.2.3)
+  - Ricoh xD-Picture Card Controller (driver 6.0.1.12)
++ IEEE 1394 Bus host controllers
+  - RICOH OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.238.1217)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Mice and other pointing devices
+  - PS/2 Compatible Mouse
++ Modems
+  - TOSHIBA Software Modem
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Hamachi Network Interface (driver 6.0.2.2)
+  - Intel(R) PRO/Wireless 3945ABG Network Connection (driver 11.5.0.32)
+  - Realtek RTL8102E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.201.1228.2007)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.2.0)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ System devices
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - Intel(R) ICH8M-E LPC Interface Controller - 2815
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA Firmware Linkage Driver (driver 1.0.0.3)
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.0)
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 4d204f4e
+ebx = 00000000
+ecx = 0012ec0c
+edx = 00000001
+esi = 00000000
+edi = 00000000
+eip = 00404cda
+esp = 0012e3f8
+ebp = 0012ec5c
+
+stack dump:
+0012e3f8  3c 55 40 00 2c e4 12 00 - 00 00 00 00 00 00 00 00  <U@.,...........
+0012e408  00 00 00 00 99 9b 88 77 - 14 e9 12 00 20 ec 12 00  .......w........
+0012e418  24 e5 12 00 18 e5 12 00 - 20 ec 12 00 d4 9b 88 77  $..............w
+0012e428  20 ec 12 00 f4 e7 12 00 - 6b 9b 88 77 14 e9 12 00  ........k..w....
+0012e438  20 ec 12 00 24 e5 12 00 - 18 e5 12 00 e8 54 40 00  ....$........T@.
+0012e448  01 00 00 00 14 e9 12 00 - 20 ec 12 00 76 d3 86 77  ............v..w
+0012e458  14 e9 12 00 20 ec 12 00 - 24 e5 12 00 18 e5 12 00  ........$.......
+0012e468  e8 54 40 00 40 e8 12 00 - 00 00 00 00 00 00 00 00  .T@.@...........
+0012e478  4a 01 00 00 b4 e3 12 00 - 08 00 00 00 b4 e4 12 00  J...............
+0012e488  24 1f 8e 77 00 00 1b 00 - 00 00 00 00 00 00 1b 00  $..w............
+0012e498  38 a8 20 00 a0 33 89 77 - 40 a8 20 00 38 a8 20 00  8....3.w@...8...
+0012e4a8  00 00 1b 00 a0 33 89 77 - 38 a8 20 00 f8 e4 12 00  .....3.w8.......
+0012e4b8  dd 2e 8e 77 30 01 1b 00 - c1 2e 8e 77 54 8c 88 77  ...w0......wT..w
+0012e4c8  dd 9a 88 77 b4 e7 12 00 - d8 e4 12 00 01 00 00 00  ...w............
+0012e4d8  07 00 01 00 00 00 01 01 - c4 e4 12 00 00 00 00 00  ................
+0012e4e8  dc e5 12 00 34 98 83 77 - 6c 74 3e 02 fe ff ff ff  ....4..wlt>.....
+0012e4f8  c1 2e 8e 77 e8 bf 8a 77 - 00 00 1b 00 63 00 00 50  ...w...w....c..P
+0012e508  1f 86 89 77 80 da a5 75 - 00 00 00 00 00 00 1b 00  ...w...u........
+0012e518  40 a8 20 00 00 b0 12 00 - 00 00 13 00 07 00 01 00  @...............
+0012e528  03 01 00 00 00 00 00 00 - 01 00 00 00 58 0a 1a 00  ............X...
+
+disassembling:
+00404cd4      public System.TObject.Free:      ; function entry point
+00404cd4 8831   test    eax, eax
+00404cd6        jz      loc_404cdf
+00404cd8 8832   mov     dl, 1
+00404cda      > mov     ecx, [eax]
+00404cdc        call    dword ptr [ecx-4]
+00404cdf 8833   ret
+
+date/time         : 2009-09-23, 14:26:50, 238ms
+computer name     : NADIR
+user name         : Administrator <admin>
+registered owner  : Ricardo Vega
+operating system  : Windows Vista Service Pack 1 build 6001
+system language   : English
+system up time    : 5 hours 49 minutes
+program up time   : 8 minutes 31 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T5550 @ 1.83GHz
+physical memory   : 1068/3061 MB (free/total)
+free disk space   : (C:) 54.04 GB
+display mode      : 1280x800, 32 bit
+process id        : $1918
+allocated memory  : 55.40 MB
+command line      : "C:\Dark\pascal\Image2XML\src\i2xui\Image2XML.exe" -x '..\' -d 2 -j_ 'C:\Dark\pascal\Image2XML\templates\JOB.i2x'
+executable        : Image2XML.exe
+exec. date/time   : 2009-09-23 14:18
+version           : 0.9.8.4
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $76355cda, $0033ebbe, $fee0459e
+exception number  : 1
+exception class   : EConvertError
+exception message : 'AA' is not a valid integer value.
+
+main thread ($1d28):
+00459c31 +019 Image2XML.exe SysUtils   3245   +1 ConvertErrorFmt
+0045a4dc +02c Image2XML.exe SysUtils   5016   +2 StrToInt
+005d6ad9 +065 Image2XML.exe UII2XBase  2366   +3 TI2XBaseUI.txtDPI_Exit
+004aec15 +015 Image2XML.exe Controls   7887   +1 TWinControl.DoExit
+004af7b1 +009 Image2XML.exe Controls   8326   +1 TWinControl.CMExit
+004a9aa3 +2bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004ad9aa +4fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ad0d4 +02c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+004770b0 +014 Image2XML.exe Classes   11583   +8 StdWndProc
+7712049d +044 USER32.dll                         SendMessageA
+004bbea4 +010 Image2XML.exe Forms      1670   +2 SendFocusMessage
+004c1177 +183 Image2XML.exe Forms      4596  +41 TCustomForm.SetFocusedControl
+004ad611 +161 Image2XML.exe Controls   7178  +18 TWinControl.WndProc
+004ad0d4 +02c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+004770b0 +014 Image2XML.exe Classes   11583   +8 StdWndProc
+776d99cb +02b ntdll.dll                          KiUserCallbackDispatcher
+7711c5f9 +00a USER32.dll                         SetFocus
+7713b9fc +016 USER32.dll                         CallWindowProcA
+004adaa7 +0d7 Image2XML.exe Controls   7301  +23 TWinControl.DefaultHandler
+0048d542 +16a Image2XML.exe StdCtrls   2201  +29 TCustomEdit.DefaultHandler
+004aa0a1 +015 Image2XML.exe Controls   5258   +2 TControl.WMLButtonDown
+004a9aa3 +2bb Image2XML.exe Controls   5146  +83 TControl.WndProc
+004ad9aa +4fa Image2XML.exe Controls   7271 +111 TWinControl.WndProc
+004ad0d4 +02c Image2XML.exe Controls   7040   +3 TWinControl.MainWndProc
+004770b0 +014 Image2XML.exe Classes   11583   +8 StdWndProc
+77125a27 +00a USER32.dll                         DispatchMessageA
+004c6a70 +0fc Image2XML.exe Forms      8015  +23 TApplication.ProcessMessage
+004c6aaa +00a Image2XML.exe Forms      8034   +1 TApplication.HandleMessage
+004c6d00 +0cc Image2XML.exe Forms      8125  +23 TApplication.Run
+005e93fb +4df Image2XML.exe Image2XML   132  +63 initialization
+76cd490f +010 kernel32.dll                       BaseThreadInitThunk
+
+thread $1c80:
+776d8ce2 +0a ntdll.dll               NtRemoveIoCompletion
+76cd5234 +23 kernel32.dll            GetQueuedCompletionStatus
+004545dd +0d Image2XML.exe madExcept CallThreadProcSafe
+00454647 +37 Image2XML.exe madExcept ThreadExceptFrame
+76cd490f +10 kernel32.dll            BaseThreadInitThunk
+>> created by main thread ($1d28) at:
+77082591 +00 RPCRT4.dll
+
+thread $1324 (TmcmTWAINThread):
+77130ddc +0a USER32.dll                             WaitMessage
+005adfe4 +1c Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Execute
+004546fb +2b Image2XML.exe madExcept                HookedTThreadExecute
+00475978 +34 Image2XML.exe Classes         9877  +7 ThreadProc
+00405c4c +28 Image2XML.exe System         12110 +33 ThreadWrapper
+004545dd +0d Image2XML.exe madExcept                CallThreadProcSafe
+00454647 +37 Image2XML.exe madExcept                ThreadExceptFrame
+76cd490f +10 kernel32.dll                           BaseThreadInitThunk
+>> created by main thread ($1d28) at:
+005adc13 +53 Image2XML.exe mcmTWAINThread           TmcmTWAINThread.Create
+
+modules:
+00140000 FastMM_FullDebugMode.dll 1.44.0.4           C:\Dark\pascal\Image2XML\src\i2xui
+00280000 KeyLib32.dll             4.5.0.2            C:\Windows\system32
+00400000 Image2XML.exe            0.9.8.4            C:\Dark\pascal\Image2XML\src\i2xui
+02a00000 TOCRRdll.dll             1.0.4.101          C:\Dark\pascal\Image2XML\src\i2xui
+04ba0000 FreeImage.dll            3.10.0.0           C:\Dark\pascal\Image2XML\src\i2xui
+05200000 i2ximg_freeimage.dll     1.0.0.141          C:\Dark\pascal\Image2XML\src\i2ximg_freeimage
+058a0000 i2ximg_g32.dll           1.0.0.178          C:\Dark\pascal\Image2XML\src\i2ximg_g32
+05af0000 i2ximg_mcm.dll           1.0.0.149          C:\Dark\pascal\Image2XML\src\i2ximg_mcm
+061a0000 i2xocr_gocr.dll          1.0.0.122          C:\Dark\pascal\Image2XML\src\i2xocr_gocr
+06810000 i2xocr_tocr.dll          1.0.0.308          C:\Dark\pascal\Image2XML\src\i2xocr_tocr
+10000000 SKCA32.dll               4.5.0.2            C:\Windows\system32
+59b90000 sti.dll                  6.0.6000.16386     C:\Windows\System32
+6dea0000 hhctrl.ocx               6.0.6001.18000     C:\Windows\system32
+6e000000 wiadss.dll               6.0.6001.18000     C:\Windows\system32
+6e440000 wiatrace.dll             6.0.6000.16386     C:\Windows\system32
+6f520000 CFGMGR32.dll             6.0.6001.18000     C:\Windows\System32
+6fd50000 WINSPOOL.DRV             6.0.6001.18000     C:\Windows\system32
+70220000 DWMAPI.DLL               6.0.6001.18000     C:\Windows\system32
+70320000 comctl32.dll             5.82.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05
+71980000 wsock32.dll              6.0.6001.18000     C:\Windows\system32
+73710000 gdiplus.dll              5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+73900000 OLEACC.dll               4.2.5406.0         C:\Windows\system32
+73940000 winmm.dll                6.0.6001.18000     C:\Windows\system32
+74bf0000 comctl32.dll             6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+74da0000 uxtheme.dll              6.0.6001.18000     C:\Windows\system32
+74fc0000 msimg32.dll              6.0.6000.16386     C:\Windows\system32
+75010000 version.dll              6.0.6001.18000     C:\Windows\system32
+75050000 NTMARTA.DLL              6.0.6001.18000     C:\Windows\system32
+750d0000 rsaenh.dll               6.0.6001.18000     C:\Windows\system32
+75510000 dhcpcsvc6.DLL            6.0.6001.18000     C:\Windows\system32
+75540000 WINNSI.DLL               6.0.6001.18000     C:\Windows\system32
+75550000 dhcpcsvc.DLL             6.0.6001.18000     C:\Windows\system32
+75590000 iphlpapi.dll             6.0.6001.18000     C:\Windows\system32
+75730000 mpr.dll                  6.0.6001.18000     C:\Windows\system32
+757b0000 SAMLIB.dll               6.0.6001.18000     C:\Windows\system32
+757d0000 DNSAPI.dll               6.0.6001.18000     C:\Windows\system32
+75bc0000 Secur32.dll              6.0.6001.18215     C:\Windows\system32
+75d20000 PSAPI.DLL                6.0.6000.16386     C:\Windows\system32
+75e70000 NSI.dll                  6.0.6001.18000     C:\Windows\system32
+75eb0000 USP10.dll                1.626.6001.18000   C:\Windows\system32
+75f30000 CLBCatQ.DLL              2001.12.6931.18000 C:\Windows\system32
+75fc0000 LPK.DLL                  6.0.6001.18000     C:\Windows\system32
+75fd0000 GDI32.dll                6.0.6001.18159     C:\Windows\system32
+76020000 shell32.dll              6.0.6001.18167     C:\Windows\system32
+76b30000 MSCTF.dll                6.0.6001.18000     C:\Windows\system32
+76c00000 oleaut32.dll             6.0.6001.18000     C:\Windows\system32
+76c90000 kernel32.dll             6.0.6001.18215     C:\Windows\system32
+76e60000 WLDAP32.dll              6.0.6001.18000     C:\Windows\system32
+76eb0000 msvcrt.dll               7.0.6001.18000     C:\Windows\system32
+76f60000 SHLWAPI.dll              6.0.6001.18000     C:\Windows\system32
+76fc0000 comdlg32.dll             6.0.6001.18000     C:\Windows\system32
+77040000 RPCRT4.dll               6.0.6001.18051     C:\Windows\system32
+77110000 USER32.dll               6.0.6001.18000     C:\Windows\system32
+773a0000 ole32.dll                6.0.6001.18000     C:\Windows\system32
+774f0000 setupapi.DLL             6.0.6001.18000     C:\Windows\system32
+77680000 ntdll.dll                6.0.6001.18000     C:\Windows\system32
+777b0000 IMM32.DLL                6.0.6001.18000     C:\Windows\system32
+777e0000 WS2_32.dll               6.0.6001.18000     C:\Windows\system32
+77810000 ADVAPI32.dll             6.0.6001.18000     C:\Windows\system32
+
+processes:
+0000 Idle                         0
+0004 System                       0
+01d4 smss.exe                     0 normal       C:\Windows\system32
+0218 csrss.exe                    0 normal       C:\Windows\system32
+0244 csrss.exe                    1 normal       C:\Windows\system32
+024c wininit.exe                  0 high         C:\Windows\system32
+0280 winlogon.exe                 1 high         C:\Windows\system32
+029c services.exe                 0 normal       C:\Windows\system32
+02a8 lsass.exe                    0 normal       C:\Windows\system32
+02b0 lsm.exe                      0 normal       C:\Windows\system32
+0338 svchost.exe                  0 normal       C:\Windows\system32
+0364 PresentationFontCache.exe    0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+0394 svchost.exe                  0 normal       C:\Windows\system32
+03cc svchost.exe                  0 normal       C:\Windows\System32
+0428 svchost.exe                  0 normal       C:\Windows\System32
+0450 svchost.exe                  0 normal       C:\Windows\System32
+0460 svchost.exe                  0 normal       C:\Windows\system32
+04c4 audiodg.exe                  0
+04f8 svchost.exe                  0 normal       C:\Windows\system32
+050c SLsvc.exe                    0 normal       C:\Windows\system32
+0528 svchost.exe                  0 normal       C:\Windows\system32
+05e4 svchost.exe                  0 normal       C:\Windows\system32
+06cc ccSvcHst.exe                 0 normal       C:\Program Files\Common Files\Symantec Shared
+07a4 spoolsv.exe                  0 normal       C:\Windows\System32
+07bc svchost.exe                  0 normal       C:\Windows\system32
+02ac taskeng.exe                  0 below normal C:\Windows\system32
+06fc taskeng.exe                  1 normal       C:\Windows\system32
+05a0 Dwm.exe                      1 normal       C:\Windows\system32
+06bc Explorer.EXE                 1 normal       C:\Windows
+083c VPTray.exe                   1 below normal C:\Program Files\Symantec AntiVirus
+0850 igfxpers.exe                 1 normal       C:\Windows\System32
+086c hkcmd.exe                    1 normal       C:\Windows\System32
+0888 igfxsrvc.exe                 1 normal       C:\Windows\system32
+08a4 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+08e0 ccApp.exe                    1 normal       C:\Program Files\Common Files\Symantec Shared
+08f0 traybar.exe                  1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0910 TSVNCache.exe                1 normal       C:\Program Files\TortoiseSVN\bin
+0924 iTunesHelper.exe             1 normal       C:\Program Files\iTunes
+096c TOSCDSPD.exe                 1 normal       C:\Program Files\Toshiba\TOSCDSPD
+09b4 DocuAction.exe               1 normal       C:\Program Files\Plustek\Plustek SmartOffice PS252
+0a44 CEC_MAIN.exe                 1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0af4 GoogleDesktop.exe            1 normal       C:\Program Files\Google\Google Desktop Search
+0b50 svchost.exe                  0 normal       C:\Windows\system32
+0b60 AppleMobileDeviceService.exe 0 normal       C:\Program Files\Common Files\Apple\Mobile Device Support\bin
+0b78 mDNSResponder.exe            0 normal       C:\Program Files\Bonjour
+0b88 DefWatch.exe                 0 normal       C:\Program Files\Symantec AntiVirus
+0ba8 hamachi.exe                  0 normal       C:\Program Files\Hamachi
+0bd4 inetinfo.exe                 0 normal       C:\Windows\system32\inetsrv
+0be8 sqlservr.exe                 0 normal       c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn
+0bfc sqlservr.exe                 0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+0ca8 NMSAccessU.exe               0 normal       C:\Program Files\CDBurnerXP
+0cc4 ORACLE.EXE                   0 normal       c:\oraclexe\app\oracle\product\10.2.0\server\bin
+0d44 tnslsnr.exe                  0 normal       C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+0d84 svchost.exe                  0 normal       C:\Windows\system32
+0d94 ReportingServicesService.exe 0 normal       C:\Program Files\Microsoft SQL Server\MSRS10.SQLEXPRESS2008\Reporting Services\ReportServer\bin
+0ea8 tcpsvcs.exe                  0 normal       C:\Windows\System32
+0ec8 snmp.exe                     0 normal       C:\Windows\System32
+0eec sqlwriter.exe                0 normal       c:\Program Files\Microsoft SQL Server\90\Shared
+0f30 svchost.exe                  0 normal       C:\Windows\system32
+0f44 Rtvscan.exe                  0 normal       C:\Program Files\Symantec AntiVirus
+0f80 TosCoSrv.exe                 0 normal       C:\Program Files\Toshiba\Power Saver
+0fb8 vmnat.exe                    0 normal       C:\Windows\system32
+0848 svchost.exe                  0 normal       C:\Windows\system32
+04e0 svchost.exe                  0 normal       C:\Windows\System32
+0518 vmnetdhcp.exe                0 normal       C:\Windows\system32
+036c vmware-authd.exe             0 normal       C:\Program Files\VMware\VMware Workstation
+11c8 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+127c chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1378 fdlauncher.exe               0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+13c0 iPodService.exe              0 normal       C:\Program Files\iPod\bin
+14bc fdhost.exe                   0 normal       C:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS2008\MSSQL\Binn
+14d8 hamachi.exe                  1 normal       C:\Program Files\Hamachi
+15a8 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+15d8 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+15fc chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1788 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+13a4 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+16b4 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+0e90 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+0550 firefox.exe                  1 normal       C:\Program Files\Mozilla Firefox
+0598 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1530 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1204 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+09fc notepad++.exe                1 normal       C:\Program Files\Notepad++
+0b20 devenv.exe                   1 normal       C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE
+0a88 taskmgr.exe                  1 high         C:\Windows\system32
+0f64 chrome.exe                   1 below normal C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+0554 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1144 bds.exe                      1 normal       C:\Program Files\CodeGear\RAD Studio\5.0\bin
+1e08 wuauclt.exe                  1 normal       C:\Windows\system32
+09f8 chrome.exe                   1 normal       C:\Users\Administrator\AppData\Local\Google\Chrome\Application
+1918 Image2XML.exe                1 normal       C:\Dark\pascal\Image2XML\src\i2xui
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - TOSHIBA MK2546GSX ATA Device
++ Display adapters
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
+  - Mobile Intel(R) 965 Express Chipset Family (driver 7.14.10.1437)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GSA-T40F ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) ICH8M SATA AHCI Controller - 2829 (driver 6.8.0.3002)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
+  - Ricoh Memory Stick Controller (driver 6.0.1.10)
+  - Ricoh SD/MMC Host Controller (driver 6.0.2.3)
+  - Ricoh xD-Picture Card Controller (driver 6.0.1.12)
++ IEEE 1394 Bus host controllers
+  - RICOH OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.238.1217)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Mice and other pointing devices
+  - PS/2 Compatible Mouse
++ Modems
+  - TOSHIBA Software Modem
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Hamachi Network Interface (driver 6.0.2.2)
+  - Intel(R) PRO/Wireless 3945ABG Network Connection (driver 11.5.0.32)
+  - Realtek RTL8102E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.201.1228.2007)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.2.0)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
+  - Intel(R) Core(TM)2 Duo CPU     T5550  @ 1.83GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ System devices
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - Intel(R) ICH8M-E LPC Interface Controller - 2815
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA Firmware Linkage Driver (driver 1.0.0.3)
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.0)
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 049fe090
+ebx = 0042fdc8
+ecx = 00000000
+edx = 00459c36
+esi = 0012f40c
+edi = 00000000
+eip = 00459c36
+esp = 0012f3c8
+ebp = 0012f464
+
+stack dump:
+0012f3c8  36 9c 45 00 de fa ed 0e - 01 00 00 00 07 00 00 00  6.E.............
+0012f3d8  dc f3 12 00 36 9c 45 00 - 90 e0 9f 04 c8 fd 42 00  ....6.E.......B.
+0012f3e8  0c f4 12 00 00 00 00 00 - 64 f4 12 00 f8 f3 12 00  ........d.......
+0012f3f8  a4 f6 12 00 00 00 00 00 - 58 98 9f 04 e1 a4 45 00  ........X.....E.
+0012f408  01 00 00 00 58 98 9f 04 - 0b d9 48 00 00 ec 4a 00  ....X.....H...J.
+0012f418  80 c0 b1 02 de 6a 5d 00 - e8 f5 12 00 e8 54 40 00  .....j]......T@.
+0012f428  64 f4 12 00 00 ec 4a 00 - 80 c0 b1 02 00 00 00 00  d.....J.........
+0012f438  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 f8 00  ................
+0012f448  00 00 00 00 00 00 00 00 - e8 7f 9f 04 00 00 00 00  ................
+0012f458  34 98 68 77 40 42 b9 02 - 00 00 00 00 a0 f5 12 00  4.hw@B..........
+0012f468  1b ec 4a 00 18 f6 12 00 - b6 f7 4a 00 80 c0 b1 02  ..J.......J.....
+0012f478  a6 9a 4a 00 a4 f6 12 00 - 1b b0 00 00 80 c0 b1 02  ..J.............
+0012f488  cd 61 b3 76 62 9a 7b 83 - 60 f5 12 00 50 f5 12 00  .a.vb.{.`...P...
+0012f498  50 02 fc 00 00 00 00 00 - 8c f4 12 00 e4 f4 12 00  P...............
+0012f4a8  af d9 4a 00 60 bd b1 02 - c0 02 fc 00 dc f4 12 00  ..J.`...........
+0012f4b8  a8 f5 12 00 81 02 00 00 - a8 f5 12 00 60 bd b1 02  ............`...
+0012f4c8  81 02 00 00 ec f4 12 00 - 01 f0 46 00 88 b2 c3 02  ..........F.....
+0012f4d8  e5 18 48 00 ed 18 48 00 - 60 bd b1 02 40 af c4 02  ..H...H.`...@...
+0012f4e8  d7 d0 4a 00 14 f5 12 00 - ee d0 4a 00 f6 d0 4a 00  ..J.......J...J.
+0012f4f8  c0 f5 12 00 00 d1 4a 00 - 81 02 00 00 00 00 00 00  ......J.........
+
+disassembling:
+[...]
+00459c22        push    edi
+00459c23        mov     ecx, ebx
+00459c25        mov     dl, 1
+00459c27        mov     eax, [$45964c]
+00459c2c        call    +$502b ($45ec5c)       ; SysUtils.Exception.CreateResFmt
+00459c31      > call    -$5462a ($40560c)      ; System.@RaiseExcept
+00459c36 3246   pop     edi
+00459c37        pop     esi
+00459c38        pop     ebx
+00459c39        ret
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/09/13 13:09:30.804.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Project1.dproj=C:\Dark\pascal\Image2XML\src\i2ximg_mcm\i2ximg_mcm.dproj</Transaction>
+    <Transaction>2008/09/24 14:20:02.181.pas,C:\Dark\pascal\Image2XML\src\i2ximg_mcm\Unit2.pas=C:\Dark\pascal\Image2XML\src\i2ximg_mcm\u2ximg_mcm.pas</Transaction>
+    <Transaction>2008/09/24 14:24:59.897.pas,C:\Dark\pascal\Image2XML\src\i2ximg_mcm\u2ximg_mcm.pas=C:\Dark\pascal\Image2XML\src\i2ximg_mcm\ui2ximg_mcm.pas</Transaction>
+    <Transaction>2009/08/26 16:46:08.580.pas,C:\Dark\pascal\Image2XML\src\i2xcommon\uI2XUndo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
